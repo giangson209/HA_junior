@@ -1,0 +1,278 @@
+
+.title {
+	margin-bottom: 70px;
+	h2 {
+		font-size: 40px;
+		font-weight: 700;
+		font-family: 'Montserrat';
+		span {
+			color: $red;
+		}
+	}
+}
+.btn-main {
+	a {
+		border: 2px solid #252222;
+	    border-radius: 67px;
+	    height: 54px;
+	    display: inline-flex;
+	    padding: 0 24px;
+	    align-items: center;
+	    justify-content: center;
+	    font-family: 'Montserrat';
+	    font-size: 20px;
+	    font-weight: 600;
+	    color: #fff;
+	    background: $red;
+	    &:hover {
+	    	letter-spacing: 1px;
+	    }
+	    img {
+	    	margin-left: 16px;
+	    }
+	}
+}
+.box-loiich {
+	padding: 156px 0;
+	position: relative;
+	.icon-abs {
+		position: absolute;
+		bottom: 80px;
+		right: 0;
+	}
+}
+.txt-loiich {
+	margin-bottom: 40px;
+}
+.item-loiich {
+	margin-bottom: 16px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	.t-loiich {
+		display: flex;
+		.icon {
+			flex: 0 0 24px;
+		    margin-right: 8px;
+		    position: relative;
+		    top: 0;
+		}
+		h4 {
+			font-weight: 500;
+			font-size: 24px;
+		}
+	}
+	.desc {
+		margin-top: 16px;
+		color: #4F4F4F;
+		ul {
+			padding-left: 25px;
+		}
+	}
+}
+
+.box-course {
+	background: #FFF8F8;
+	padding: 156px 0;
+	.title {
+		margin-bottom: 56px;
+	}
+}
+
+.top-tab-course {
+	margin-bottom: 64px;
+	ul {
+		list-style: none;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	}
+	a {
+		border-bottom: 1px solid #E5E5E5;
+		font-size: 24px;
+		display: inline-flex;
+		padding: 16px 24px;
+		position: relative;
+		&:after {
+			content: "";
+		    width: 100%;
+		    height: 3px;
+		    background: $red;
+		    position: absolute;
+		    bottom: 0;
+		    left: 0;
+		    opacity: 0;
+		    transition: .3s all !important;
+		}
+		&.active, &:hover  {
+			font-weight: 600;
+			color: #252222;
+			&:after {
+				opacity: 1;
+			}
+		}
+	}
+}
+.content-course-tab {
+	position: relative;
+	margin-bottom: 64px;
+	.tab-content {
+		position: absolute;
+		width: 100%;
+		top: 0;
+		left: 0;
+		pointer-events: none;
+		opacity: 0;
+		transition: .3s all !important;
+		&.active {
+			pointer-events: unset;
+			opacity: 1;
+			position: relative;
+		}
+	}
+}
+
+.item-course {
+	position: relative;
+    padding: 16px;
+    border: 2px solid #232323;
+    border-radius: 24px;
+    color: #4F4F4F;
+    font-size: 18px;
+	.avarta {
+		position: relative;
+		margin-bottom: 24px;
+		border-radius: 16px;
+		background: #FFEBD6;
+		overflow: hidden;
+		span {
+			background: #5EAD78;
+		    border-radius: 0px 16px 0px 0px;
+		    font-size: 14px;
+		    display: inline-flex;
+		    font-weight: 600;
+		    color: #fff;
+		    padding: 6px 16px;
+		    position: absolute;
+		    left: 0;
+		    bottom: 0;
+		}
+	}
+	.info {
+		a {
+			display: block;
+		    font-size: 24px;
+		    font-weight: 600;
+		    font-family: 'Montserrat';
+		}
+	}
+}
+.slide-course {
+	margin: 0 -16px;
+	.item-slide {
+		padding: 0 16px;
+	}
+}
+
+.slick-dots {
+	position: relative;
+    bottom: 0;
+    margin-top: 30px;
+    button {
+    	display: none !important;
+    }
+    li {
+    	border: 1px solid #232323;
+    	width: 8px;
+    	height: 8px;
+    	border-radius: 100%;
+    	background: #fff;
+    	transition: .4s all !important;
+    	&.slick-active {
+    		width: 24px;
+	    	border-radius: 4px;
+	    	background: $red;
+    	}
+    }
+}
+
+.box-form {
+	padding: 164px 0;
+	.title {
+		margin-bottom: 40px;
+	}
+}
+
+.frm-advise {
+	.row {
+		margin: 0 -8px;
+		>div {
+			padding: 0 8px;
+			margin-bottom: 24px;
+		}
+	}
+	label {
+		margin-bottom: 8px;
+		display: block;
+	}
+	.txt_field {
+		border: 1px solid #D8D8D8;
+		border-radius: 8px;
+		height: 48px;
+		padding: 0 12px;
+		width: 100%;
+		color: #252222;
+		outline: none;
+		&::placeholder {
+			color: #A4A4A4;
+		}
+		&:focus {
+			border: 1px solid #252222;
+		}
+	}
+	textarea {
+		border: 1px solid #D8D8D8;
+		border-radius: 8px;
+		height: 138px;
+		padding: 12px;
+		width: 100%;
+		color: #252222;
+		outline: none;
+		&::placeholder {
+			color: #A4A4A4;
+		}
+		&:focus {
+			border: 1px solid #252222;
+		}
+	}
+}
+.btn-form-contact {
+	margin-top: 40px;
+	.item-btn {
+		position: relative;
+		display: inline-flex;
+		&:after {
+			content: url(../images/arrow-right.svg);
+		    position: absolute;
+		    top: calc(50% - 12px);
+		    right: 24px;
+		}
+		.btn_field {
+			border: 2px solid #252222;
+			border-radius: 67px;
+			cursor: pointer;
+			background: $red;
+			height: 54px;
+			padding: 0 64px 0 24px;
+			font-size: 20px;
+			font-weight: 600;
+			color: #fff;
+			font-family: 'Montserrat';
+		}
+	}
+}
+
+.box-Achievements {
+	padding: 156px 0;
+	background: #FFF8F8;
+}
