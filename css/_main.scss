@@ -1,6 +1,11 @@
-
+.slick-slider {
+	margin-bottom: 0;
+}
 .title {
 	margin-bottom: 70px;
+	@media (max-width: 1400px) {
+		margin-bottom: 40px;
+	}
 	h2 {
 		font-size: 40px;
 		font-weight: 700;
@@ -24,6 +29,10 @@
 	    font-weight: 600;
 	    color: #fff;
 	    background: $red;
+	    @media (max-width: 1400px) {
+	    	font-size: 18px;
+	    	height: 48px;
+	    }
 	    &:hover {
 	    	letter-spacing: 1px;
 	    }
@@ -35,17 +44,35 @@
 .box-loiich {
 	padding: 156px 0;
 	position: relative;
+	@media (max-width: 1400px) {
+		padding: 100px 0;
+	}
+	@media (max-width: 1023px) {
+		padding: 64px 0;
+	}
 	.icon-abs {
 		position: absolute;
 		bottom: 80px;
 		right: 0;
+		@media (max-width: 1023px) {
+			display: none;
+		}
+	}
+	.btn-main {
+		@media (max-width: 1023px) {
+			text-align: center;
+		}
 	}
 }
 .txt-loiich {
 	margin-bottom: 40px;
+	@media (max-width: 1023px) {
+		padding-top: 40px;
+	}
 }
 .item-loiich {
 	margin-bottom: 16px;
+	font-size: 18px;
 	&:last-child {
 		margin-bottom: 0;
 	}
@@ -56,10 +83,16 @@
 		    margin-right: 8px;
 		    position: relative;
 		    top: 0;
+		    @media (max-width: 1400px) {
+		    	top: -3px;
+		    }
 		}
 		h4 {
-			font-weight: 500;
+			font-weight: 600;
 			font-size: 24px;
+			@media (max-width: 1400px) {
+				font-size: 20px;
+			}
 		}
 	}
 	.desc {
@@ -74,18 +107,33 @@
 .box-course {
 	background: #FFF8F8;
 	padding: 156px 0;
+	@media (max-width: 1400px) {
+		padding: 100px 0;
+	}
+	@media (max-width: 1023px) {
+		padding: 64px 0;
+	}
 	.title {
 		margin-bottom: 56px;
+		@media (max-width: 1023px) {
+			margin-bottom: 40px;
+		}
 	}
 }
 
 .top-tab-course {
 	margin-bottom: 64px;
+	@media (max-width: 1023px) {
+		overflow: auto;
+	}
 	ul {
 		list-style: none;
 	    display: flex;
 	    justify-content: center;
 	    align-items: center;
+	    @media (max-width: 1023px) {
+	    	width: max-content;
+	    }
 	}
 	a {
 		border-bottom: 1px solid #E5E5E5;
@@ -116,6 +164,9 @@
 .content-course-tab {
 	position: relative;
 	margin-bottom: 64px;
+	@media (max-width: 1400px) {
+		margin-bottom: 40px;
+	} 
 	.tab-content {
 		position: absolute;
 		width: 100%;
@@ -198,6 +249,9 @@
 
 .box-form {
 	padding: 164px 0;
+	@media (max-width: 1400px) {
+		padding: 100px 0;
+	}
 	.title {
 		margin-bottom: 40px;
 	}
@@ -268,6 +322,10 @@
 			font-weight: 600;
 			color: #fff;
 			font-family: 'Montserrat';
+			@media (max-width: 1400px) {
+				font-size: 18px;
+				height: 48px;
+			}
 		}
 	}
 }
@@ -275,4 +333,453 @@
 .box-Achievements {
 	padding: 156px 0;
 	background: #FFF8F8;
+	@media (max-width: 1400px) {
+		padding: 100px 0;
+	}
+	.title {
+		margin-bottom: 24px;
+	}
+}
+
+.content-achiev {
+	position: relative;
+	margin-top: 64px;
+	.abs-bv {
+		position: absolute;
+	    top: 0;
+	    right: 0;
+	}
+	.slick-dots {
+		position: absolute;
+    	bottom: -60px;
+	}
+}
+
+.slide-bangvang {
+	border: 2px solid #252222;
+    box-shadow: 2.48614px 4.97228px 0px #232323;
+    border-radius: 40px;
+    // overflow: hidden;
+    // padding: 24px;
+    background: #fff;
+}
+.item-bangvang {
+	display: flex;
+	padding: 24px;
+    .avarta {
+    	flex: 0 0 504px;
+	    border-radius: 24px;
+	    position: relative;
+	    overflow: hidden;
+	    margin-right: 32px;
+	    .view-cc {
+	    	position: absolute;
+		    bottom: 24px;
+		    left: 24px;
+	    }
+    }
+    .info {
+    	.overall {
+    		font-size: 40px;
+		    font-weight: 600;
+		    position: relative;
+		    color: #fff;
+		    display: inline-flex;
+		    align-items: center;
+		    margin-top: -24px;
+		    margin-bottom: 28px;
+		    span {
+		    	position: absolute;
+			    width: 100%;
+			    text-align: center;
+		    }
+    	}
+    	h4 {
+    		font-size: 32px;
+		    font-weight: 600;
+		    font-family: 'Montserrat';
+		    margin-bottom: 4px;
+		    color: #E71E25;
+    	}
+    	p {
+    		display: flex;
+    		align-items: center;
+    		span {
+    			font-size: 20px;
+			    font-weight: 600;
+			    color: #4F4F4F;
+			    font-family: 'Montserrat';
+    		}
+    		label {
+    			margin: 0;
+			    position: relative;
+			    margin-left: 12px;
+			    padding-left: 12px;
+			    border-left: 1px solid #E5E5E5;
+			    line-height: 1;
+    		}
+    	}
+    	.list-method {
+    		margin-top: 40px;
+    		font-weight: 600;
+    		font-size: 24px;
+    		font-family: 'Montserrat';
+    		text-align: center;
+    		ul {
+    			display: flex;
+				list-style: none;
+				li {
+					margin-right: 50px;
+					&:last-child {
+						margin-right: 0;
+					}
+					p {
+						justify-content: center;
+						margin-top: 12px;
+					}
+				}
+    		}
+    	}
+    }
+}
+
+.tab-achiev {
+	.top {
+		ul {
+			list-style: none;
+		    display: flex;
+		    justify-content: center;
+		    align-items: center;
+		    font-weight: 500;
+		    font-size: 24px;
+		    font-family: 'Montserrat';
+		    @media (max-width: 1400px) {
+		    	font-size: 20px;
+		    }
+		    li {
+		    	a {
+		    		display: block;
+		    		width: 265px;
+		    		border-bottom: 1px solid #E5E5E5;
+		    		text-align: center;
+		    		padding: 16px 24px;
+		    		position: relative;
+		    		&:after {
+		    			content: "";
+		    			width: 100%;
+		    			height: 3px;
+		    			background: $red; 
+		    			position: absolute;
+		    			bottom: 0;
+		    			left: 0;
+		    			opacity: 0;
+		    			transition: .3s all !important;
+		    		}
+		    		&.active {
+		    			font-weight: 600;
+		    			color: #252222;
+		    			&:after {
+		    				opacity: 1;
+		    			}
+		    		}
+		    	}
+		    }
+		}
+	}
+}
+
+.box-memmber {
+	padding: 156px 0;
+	background: #FFF8F8;
+	overflow: hidden;
+	@media (max-width: 1400px) {
+		padding: 100px 0;
+	}
+	.btn-main {
+		margin-top: 74px;
+		@media (max-width: 1400px) {
+			margin-top: 40px;
+		}
+	}
+	.container {
+		position: relative;
+	}
+	.avs-icon {
+		position: absolute;
+	    right: -12%;
+	    bottom: 0;
+	}
+}
+
+.slide-member {
+	margin: 0 -16px;
+	.item-slide {
+		padding: 0 16px;
+	}
+	.item-member {
+		position: relative;
+	    border: 2px solid #252222;
+	    border-radius: 24px;
+	    overflow: hidden;
+	    .info {
+	    	font-size: 24px;
+		    font-family: 'Montserrat';
+		    font-weight: 600;
+		    padding: 12px 24px;
+		    border: 1px solid #252222;
+		    border-radius: 0px 48px 0px 0px;
+		    position: absolute;
+		    bottom: -1px;
+		    left: -1px;
+		    background: #fff;
+		    pointer-events: none;
+	    }
+	}
+}
+
+.box-number {
+	color: #fff;
+	padding: 72px 0;
+	background: #E71E25;
+	overflow: hidden;
+	.row {
+		margin: 0 -48px;
+		>div {
+			padding: 0 48px;
+		}
+	}
+	.container {
+		max-width: 1130px;
+	}
+}
+
+.item-numb {
+	font-size: 20px;
+	@media (max-width: 1400px) {
+		font-size: 18px;
+	}
+	.numb {
+		padding: 10px 0;
+		color: #FFFFFF;
+	    text-shadow: 3px 6px 0px #232323;
+	    font-size: 72px;
+	    font-weight: 700;
+	    font-family: 'Montserrat';
+	    line-height: 1.2;
+	    @media (max-width: 1400px) {
+	    	font-size: 64px;
+	    }
+	}
+}
+
+.box-video {
+	position: relative;
+	padding: 156px 0;
+	background: #FFF8F8;
+	overflow: hidden;
+	@media (max-width: 1400px) {
+		padding: 100px 0;
+	}
+}
+
+.content-video {
+	position: relative;
+	padding-top: 56.25%;
+	border: 3px solid #252222;
+	filter: drop-shadow(2.48614px 4.97228px 0px #232323);
+	border-radius: 30px;
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		border-radius: 30px;
+	}
+	.icon-abs {
+		position: absolute;
+		z-index: 3;
+		pointer-events: none;
+		&.abs-1 {
+			top: 15%;
+    		left: -12%;
+		}
+		&.abs-2 {
+			left: 3%;
+    		bottom: -7%;
+		}
+		&.abs-3 {
+			top: 55%;
+    		right: -20%;
+		}
+	}
+}
+
+.box-book {
+	padding: 156px 0;
+	@media (max-width: 1400px) {
+		padding: 100px 0;
+	}
+	.title {
+		margin-bottom: 24px;
+	}
+	.btn-main {
+		margin-top: 80px;
+		@media (max-width: 1400px) {
+			margin-top: 64px;
+		}
+	}
+	.tab-achiev {
+		margin-bottom: 64px;
+	}
+}
+.slide-book {
+	margin: 0 -16px;
+	.item-slide {
+		padding: 0 16px;
+	}
+}
+.item-book {
+	font-size: 14px;
+	.avarta {
+		margin-bottom: 16px;
+	}
+	h3 {
+		a {
+			display: block;
+		    font-size: 18px;
+		    font-weight: 600;
+		    margin-bottom: 12px;
+		    line-height: initial;
+		}
+	}
+	span {
+		color: #409A61;
+	    font-weight: 600;
+	    position: relative;
+	    margin-right: 12px;
+	    padding-right: 12px;
+	    border-right: 1px solid #4F4F4F;
+	    line-height: 1;
+	    display: inline-block;
+	}
+	label {
+		margin-bottom: 0;
+	}
+	.desc {
+		margin-bottom: 16px;
+		text-overflow: ellipsis;
+	    overflow: hidden;
+	    display: -webkit-box;
+	    -webkit-line-clamp: 2;
+	    -webkit-box-orient: vertical;
+	}
+}
+.box-feedback {
+	padding: 156px 0 282px 0;
+	background: #FFF8F8;
+	@media (max-width: 1400px) {
+		padding: 100px 0;
+	}
+}
+.content-gall-book {
+	position: relative;
+	.tab-book {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		opacity: 0;
+		transition: .4s all !important;
+		pointer-events: none;
+		&.active {
+			pointer-events: unset;
+			opacity: 1;
+			position: relative;
+		}
+	}
+}
+.box-gallery {
+	padding: 0 0 156px 0;
+	background: #FFF8F8;
+	overflow: hidden;
+	@media (max-width: 1400px) {
+		padding: 0 0 100px 0;
+	}
+}
+.item-feedback {
+	display: flex;
+    align-items: center; 
+    .avarta {
+    	flex: 0 0 456px;
+    	margin-right: 115px;
+    	@media (max-width: 1200px) {
+    		margin-right: 48px;
+    	}
+    }
+    .desc {
+    	margin: 32px 0;
+	    padding-left: 16px;
+	    border-left: 1px solid #252222;
+    }
+    h5 {
+    	font-size: 20px;
+	    font-weight: 600;
+	    font-family: 'Montserrat';
+    }
+    p {
+    	font-size: 14px;
+    }
+}
+
+.slide-gallery-images {
+	margin: 0 -8px;
+	.item-slide {
+		padding: 0 8px;
+	}
+}
+
+.box-news {
+	padding: 156px 0;
+	@media (max-width: 1400px) {
+		padding: 100px 0;
+	}
+	.btn-main {
+		margin-top: 64px;
+		@media (max-width: 1400px) {
+			margin-top: 40px;
+		}
+	}
+}
+.box-contact-home {
+	padding: 0 0 156px 0;
+	@media (max-width: 1400px) {
+		padding: 0 0 100px 0;
+	}
+	.content-contact-home {
+		position: relative;
+		padding: 86px 156px;
+		background: url('../images/bn-contact.png') no-repeat center;
+		background-size: cover;
+		border-radius: 56px;
+		overflow: hidden;
+		color: #fff;
+		font-size: 24px;
+		@media (max-width: 1400px) {
+			padding: 86px 100px;
+			font-size: 20px;
+		}
+		h3 {
+			font-family: 'Montserrat';
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom: 24px;
+			@media (max-width: 1400px) {
+				font-size: 32px;
+			}
+		}
+		p {
+			margin-bottom: 40px;
+		}
+	}
 }

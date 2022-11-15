@@ -8,7 +8,7 @@
 }
 $red: #E71E25;
 
-p {
+p { 
   margin: 0px;
 }
 
@@ -50,6 +50,13 @@ body {
 }
 .container {
   max-width: 1230px;
+  @media (max-width: 1320px) {
+    max-width: 100%;
+    padding: 0 60px;
+  }
+  @media (max-width: 1023px) {
+    padding: 0 48px;
+  }
 }
 
 

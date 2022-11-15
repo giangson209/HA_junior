@@ -5,7 +5,7 @@
 			<div class="item-slide">
 				<div class="item-banner"></div>
 			</div>
-		</div>
+		</div> 
 	</section>
 	<section class="box-loiich">
 		<div class="icon-abs"><img src="images/icon-loiich.png" class="img-fluid" alt=""></div>
@@ -15,10 +15,10 @@
 			</div>
 			<div class="content-loiich">
 				<div class="row align-items-center">
-					<div class="col-md-6">
-						<div class="avarta"><img src="images/loiich.png" class="img-fluid" alt=""></div>
+					<div class="col-lg-6">
+						<div class="avarta text-center"><img src="images/loiich.png" class="img-fluid" alt=""></div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-lg-6">
 						<div class="txt-loiich">
 							<div class="item-loiich">
 								<div class="t-loiich">
@@ -249,6 +249,446 @@
 		<div class="container">
 			<div class="title text-center">
 				<h2><label>Bảng vàng</label> thành tích</h2>
+			</div>
+			<div class="tab-achiev">
+				<div class="top">
+					<ul>
+						<li><a href="" data-tab="tt-1" class="active">Học viên xuất sắc</a></li>
+						<li><a href="" data-tab="tt-2">Giải thưởng</a></li>
+					</ul>
+				</div> 
+				<div class="content-achiev">
+					<div class="tab-content-chiev">
+						<div class="abs-bv"><img src="images/abs-thanhtich.png" class="img-fluid" alt=""></div>
+						<div class="slide-bangvang">
+							<div class="item-slide">
+								<div class="item-bangvang">
+									<div class="avarta">
+										<img src="images/avr-bv.png" class="img-fluid w-100" alt="">
+										<div class="view-cc"><a href="javascript:void(0)"><img src="images/view-chungchi.png" class="img-fluid" alt=""></a></div>
+									</div>
+									<div class="info">
+										<div class="overall">
+											<img src="images/overall.png" class="img-fluid" alt="">
+											<span>6.5</span>
+										</div>
+										<h4>Nguyễn Đình Sinh Quảng</h4>
+										<p><span>Lớp IELTS SPECIAL</span><label>Trường THPT Đình Bảng</label></p>
+										<div class="list-method text-center">
+											<ul>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/nghe.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/noi.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/doc.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/viet.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-slide">
+								<div class="item-bangvang">
+									<div class="avarta">
+										<img src="images/avr-bv.png" class="img-fluid w-100" alt="">
+										<div class="view-cc"><a href="javascript:void(0)"><img src="images/view-chungchi.png" class="img-fluid" alt=""></a></div>
+									</div>
+									<div class="info">
+										<div class="overall">
+											<img src="images/overall.png" class="img-fluid" alt="">
+											<span>6.5</span>
+										</div>
+										<h4>Nguyễn Đình Sinh Quảng</h4>
+										<p><span>Lớp IELTS SPECIAL</span><label>Trường THPT Đình Bảng</label></p>
+										<div class="list-method text-center">
+											<ul>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/nghe.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/noi.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/doc.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/viet.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-slide">
+								<div class="item-bangvang">
+									<div class="avarta">
+										<img src="images/avr-bv.png" class="img-fluid w-100" alt="">
+										<div class="view-cc"><a href="javascript:void(0)"><img src="images/view-chungchi.png" class="img-fluid" alt=""></a></div>
+									</div>
+									<div class="info">
+										<div class="overall">
+											<img src="images/overall.png" class="img-fluid" alt="">
+											<span>6.5</span>
+										</div>
+										<h4>Nguyễn Đình Sinh Quảng</h4>
+										<p><span>Lớp IELTS SPECIAL</span><label>Trường THPT Đình Bảng</label></p>
+										<div class="list-method text-center">
+											<ul>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/nghe.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/noi.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/doc.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/viet.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="box-memmber">
+		<div class="container">
+			<div class="avs-icon"><img src="images/abs-member.png" class="img-fluid" alt=""></div>
+			<div class="title text-center">
+				<h2>Đội ngũ <label>giáo viên</label> <br><span>kinh nghiệm, tận tâm</span></h2>
+			</div>
+			<div class="slide-member">
+				<div class="item-slide">
+					<div class="item-member">
+						<div class="avarta"><a href="javascript:void(0)"><img src="images/mem-1.png" class="img-fluid w-100" alt=""></a></div>
+						<div class="info">Mr. Manh Ha</div>
+					</div>
+				</div> 
+				<div class="item-slide">
+					<div class="item-member">
+						<div class="avarta"><a href="javascript:void(0)"><img src="images/mem-2.png" class="img-fluid w-100" alt=""></a></div>
+						<div class="info">Mr. Manh Ha</div>
+					</div>
+				</div> 
+				<div class="item-slide">
+					<div class="item-member">
+						<div class="avarta"><a href="javascript:void(0)"><img src="images/mem-1.png" class="img-fluid w-100" alt=""></a></div>
+						<div class="info">Mr. Manh Ha</div>
+					</div>
+				</div> 
+				<div class="item-slide">
+					<div class="item-member">
+						<div class="avarta"><a href="javascript:void(0)"><img src="images/mem-2.png" class="img-fluid w-100" alt=""></a></div>
+						<div class="info">Mr. Manh Ha</div>
+					</div>
+				</div> 
+			</div>
+			<div class="btn-main text-center">
+				<a href=""><span>Xem tất cả</span><img src="images/arrow-right.svg" class="img-fluid" alt=""></a>
+			</div>
+		</div>
+	</section>
+	<section class="box-number">
+		<div class="container">
+			<div class="list-number">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="item-numb text-center">
+							<div class="icon"><img src="images/star.png" class="img-fluid" alt=""></div>
+							<div class="numb">547<span>+</span></div>
+							<p>Học viên đang theo học và đã tốt nghiệp</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="item-numb text-center">
+							<div class="icon"><img src="images/star.png" class="img-fluid" alt=""></div>
+							<div class="numb">10<span>+</span></div>
+							<p>Khóa học được đầu tư bài bản, kỹ lưỡng</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="item-numb text-center">
+							<div class="icon"><img src="images/star.png" class="img-fluid" alt=""></div>
+							<div class="numb">30<span>+</span></div>
+							<p>Giảng viên tâm huyết và giàu kinh nghiệm trong nghề</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="box-video">
+		<div class="container">
+			<div class="content-video">
+				<div class="icon-abs abs-1"><img src="images/vd-1.png" class="img-fluid" alt=""></div>
+				<div class="icon-abs abs-2"><img src="images/vd-2.png" class="img-fluid" alt=""></div>
+				<div class="icon-abs abs-3"><img src="images/vd-3.png" class="img-fluid" alt=""></div>
+				<iframe width="1280" height="720" src="https://www.youtube.com/embed/KUtaJeL_FzE?list=RDKUtaJeL_FzE" title="FBBOIZ - Để Em Rời Xa (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+	<section class="box-book">
+		<div class="container">
+			<div class="title text-center">
+				<h2>Thư viện <label> đa dạng</label>, phong phú</h2>
+			</div>
+			<div class="tab-achiev">
+				<div class="top">
+					<ul>
+						<li><a href="javascript:void(0)" data-tab="book-1" class="active">Tủ sách cho trẻ</a></li>
+						<li><a href="javascript:void(0)" data-tab="book-2">Bí quyết học tập</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="content-gall-book">
+				<div class="tab-book active" id="book-1">
+					<div class="slide-book"> 
+						<div class="item-slide">
+							<div class="item-book">
+								<div class="avarta"><a href=""><img src="images/book-1.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="info">
+									<h3><a href="">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+									<p><span>Tủ sách cho trẻ</span><label>3 giờ trước</label></p>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-book">
+								<div class="avarta"><a href=""><img src="images/book-2.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="info">
+									<h3><a href="">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+									<p><span>Tủ sách cho trẻ</span><label>3 giờ trước</label></p>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-book">
+								<div class="avarta"><a href=""><img src="images/book-3.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="info">
+									<h3><a href="">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+									<p><span>Tủ sách cho trẻ</span><label>3 giờ trước</label></p>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-book">
+								<div class="avarta"><a href=""><img src="images/book-2.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="info">
+									<h3><a href="">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+									<p><span>Tủ sách cho trẻ</span><label>3 giờ trước</label></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-book" id="book-2">
+					<div class="slide-book"> 
+						<div class="item-slide">
+							<div class="item-book">
+								<div class="avarta"><a href=""><img src="images/book-2.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="info">
+									<h3><a href="">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+									<p><span>Tủ sách cho trẻ</span><label>3 giờ trước</label></p>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-book">
+								<div class="avarta"><a href=""><img src="images/book-3.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="info">
+									<h3><a href="">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+									<p><span>Tủ sách cho trẻ</span><label>3 giờ trước</label></p>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-book">
+								<div class="avarta"><a href=""><img src="images/book-1.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="info">
+									<h3><a href="">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+									<p><span>Tủ sách cho trẻ</span><label>3 giờ trước</label></p>
+								</div>
+							</div>
+						</div>
+						<div class="item-slide">
+							<div class="item-book">
+								<div class="avarta"><a href=""><img src="images/book-2.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="info">
+									<h3><a href="">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+									<p><span>Tủ sách cho trẻ</span><label>3 giờ trước</label></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="btn-main text-center"><a href=""><span>Xem tất cả</span><img src="images/arrow-right.svg" class="img-fluid" alt=""></a></div>
+		</div>
+	</section>
+	<section class="box-feedback">
+		<div class="container">
+			<div class="slide-feedback">
+				<div class="item-slide">
+					<div class="item-feedback">
+						<div class="avarta"><img src="images/avr-fb.png" class="img-fluid w-100" alt=""></div>
+						<div class="info">
+							<div class="icon"><img src="images/kep.png" class="img-fluid" alt=""></div>
+							<div class="desc">
+								Em rất sợ tiếng anh, nhưng vì những mục tiêu tương lai, em phải chinh phục được ngôn ngữ này. Và Bluebell là trung tâm em lựa chọn đồng hành trong hành trình gian nan này. Ban đầu em cũng lo lắng, nhưng mọi thứ diễn ra đã thay đổi suy nghĩ của em. Các thầy cô ở đây cực xịn, từ một đứa tiếng anh em dần hứng thú học tiếng Anh. Em luôn ước có thể biết đến Bluebell sớm hớn. 
+							</div>
+							<div class="info">
+								<h5>Ông Trương Quốc Thái</h5>
+								<p>Phụ huynh bạn Lê Mai Anh - Khóa Kiddie A</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item-slide">
+					<div class="item-feedback">
+						<div class="avarta"><img src="images/avr-fb.png" class="img-fluid w-100" alt=""></div>
+						<div class="info">
+							<div class="icon"><img src="images/kep.png" class="img-fluid" alt=""></div>
+							<div class="desc">
+								Em rất sợ tiếng anh, nhưng vì những mục tiêu tương lai, em phải chinh phục được ngôn ngữ này. Và Bluebell là trung tâm em lựa chọn đồng hành trong hành trình gian nan này. Ban đầu em cũng lo lắng, nhưng mọi thứ diễn ra đã thay đổi suy nghĩ của em. Các thầy cô ở đây cực xịn, từ một đứa tiếng anh em dần hứng thú học tiếng Anh. Em luôn ước có thể biết đến Bluebell sớm hớn. 
+							</div>
+							<div class="info">
+								<h5>Ông Trương Quốc Thái</h5>
+								<p>Phụ huynh bạn Lê Mai Anh - Khóa Kiddie A</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="box-gallery">
+		<div class="slide-gallery-images">
+			<div class="item-slide">
+				<div class="item-gall-image"><a href=""><img src="images/gall-1.png" class="img-fluid w-100" alt=""></a></div>
+			</div>
+			<div class="item-slide">
+				<div class="item-gall-image"><a href=""><img src="images/gall-2.png" class="img-fluid w-100" alt=""></a></div>
+			</div>
+			<div class="item-slide">
+				<div class="item-gall-image"><a href=""><img src="images/gall-1.png" class="img-fluid w-100" alt=""></a></div>
+			</div>
+			<div class="item-slide">
+				<div class="item-gall-image"><a href=""><img src="images/gall-2.png" class="img-fluid w-100" alt=""></a></div>
+			</div>
+			<div class="item-slide">
+				<div class="item-gall-image"><a href=""><img src="images/gall-1.png" class="img-fluid w-100" alt=""></a></div>
+			</div>
+			<div class="item-slide">
+				<div class="item-gall-image"><a href=""><img src="images/gall-2.png" class="img-fluid w-100" alt=""></a></div>
+			</div>
+		</div>
+	</section>
+	<section class="box-news">
+		<div class="container">
+			<div class="title text-center">
+				<h2>Tin tức - Sự kiện</h2>
+			</div>
+			<div class="list-news">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="item-book">
+							<div class="avarta"><a href="" tabindex="0"><img src="images/book-1.png" class="img-fluid w-100" alt=""></a></div>
+							<div class="info">
+								<h3><a href="" tabindex="0">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+								<div class="desc">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.
+								</div>
+								<p><span>Tin tức</span><label>3 giờ trước</label></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="item-book">
+							<div class="avarta"><a href="" tabindex="0"><img src="images/book-2.png" class="img-fluid w-100" alt=""></a></div>
+							<div class="info">
+								<h3><a href="" tabindex="0">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+								<div class="desc">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.
+								</div>
+								<p><span>Tin tức</span><label>3 giờ trước</label></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="item-book">
+							<div class="avarta"><a href="" tabindex="0"><img src="images/book-1.png" class="img-fluid w-100" alt=""></a></div>
+							<div class="info">
+								<h3><a href="" tabindex="0">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+								<div class="desc">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.
+								</div>
+								<p><span>Tin tức</span><label>3 giờ trước</label></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="btn-main text-center">
+				<a href=""><span>Xem tất cả</span><img src="images/arrow-right.svg" class="img-fluid" alt=""></a>
+			</div>
+		</div>
+	</section>
+	<section class="box-contact-home">
+		<div class="container">
+			<div class="content-contact-home text-center">
+				<h3>Sẵn sàng đồng hành cùng HA Junior ?</h3>
+				<p>Hãy bắt đầu ngay hôm nay</p>
+				<div class="btn-contact-home">
+					<a href=""><img src="images/btn-contact.png" class="img-fluid" alt=""></a>
+				</div>
 			</div>
 		</div>
 	</section>

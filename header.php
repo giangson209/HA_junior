@@ -17,7 +17,7 @@
 </head>
 
 <body> 
-<header>
+<!-- <header>
     <div class="header-top">
         <div class="container">
             <div class="info-head-top text-center">
@@ -72,4 +72,4 @@
             </div>
         </div>
     </div>
-</header>
+</header> -->
