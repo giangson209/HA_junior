@@ -1,15 +1,63 @@
 .slick-slider {
 	margin-bottom: 0;
 }
+.slick-arrow {
+	position: absolute;
+    z-index: 2;
+    top: calc(50% - 24px);
+    @media (max-width: 1023px) {
+		bottom: -96px;
+		top: unset;
+	}
+	@media (max-width: 767px) {
+		bottom: -74px;
+		img {
+			width: 32px;
+		}
+	}
+    &.slide-left {
+    	left: -80px;
+    	@media (max-width: 1600px) {
+    		left: -50px;
+    	}
+    	@media (max-width: 1023px) {
+    		left: calc(50% - 55px);
+    	}
+    	@media (max-width: 767px) {
+    		left: calc(50% - 36px);
+    	}
+    }
+    &.slide-right {
+    	right: -80px;
+    	@media (max-width: 1600px) {
+    		right: -50px;
+    	}
+    	@media (max-width: 1023px) {
+    		right: calc(50% - 55px);
+    	}
+    	@media (max-width: 767px) {
+    		right: calc(50% - 36px);
+    	}
+    }
+}
 .title {
 	margin-bottom: 70px;
 	@media (max-width: 1400px) {
 		margin-bottom: 40px;
 	}
+	@media (max-width: 767px) {
+		margin-bottom: 32px;
+		br {
+			display: none;
+		}
+	}
 	h2 {
 		font-size: 40px;
 		font-weight: 700;
 		font-family: 'Montserrat';
+		@media (max-width: 767px) {
+			font-size: 24px;
+		}
 		span {
 			color: $red;
 		}
@@ -29,9 +77,9 @@
 	    font-weight: 600;
 	    color: #fff;
 	    background: $red;
-	    @media (max-width: 1400px) {
-	    	font-size: 18px;
-	    	height: 48px;
+	    @media (max-width: 767px) {
+	    	height: 40px;
+	    	font-size: 16px;
 	    }
 	    &:hover {
 	    	letter-spacing: 1px;
@@ -49,6 +97,9 @@
 	}
 	@media (max-width: 1023px) {
 		padding: 64px 0;
+	}
+	@media (max-width: 767px) {
+		padding: 48px 0;
 	}
 	.icon-abs {
 		position: absolute;
@@ -73,6 +124,9 @@
 .item-loiich {
 	margin-bottom: 16px;
 	font-size: 18px;
+	@media (max-width: 767px) {
+		font-size: 16px;
+	}
 	&:last-child {
 		margin-bottom: 0;
 	}
@@ -86,12 +140,15 @@
 		    @media (max-width: 1400px) {
 		    	top: -3px;
 		    }
+		    @media (max-width: 767px) {
+		    	top: -6px;
+		    }
 		}
 		h4 {
 			font-weight: 600;
 			font-size: 24px;
-			@media (max-width: 1400px) {
-				font-size: 20px;
+			@media (max-width: 767px) {
+				font-size: 16px;
 			}
 		}
 	}
@@ -113,10 +170,24 @@
 	@media (max-width: 1023px) {
 		padding: 64px 0;
 	}
+	@media (max-width: 767px) {
+		padding: 48px 0;
+	}
 	.title {
 		margin-bottom: 56px;
 		@media (max-width: 1023px) {
 			margin-bottom: 40px;
+		}
+		@media (max-width: 767px) {
+			margin-bottom: 16px;
+		}
+	}
+	.btn-main {
+		@media (max-width: 1023px) {
+			padding-top: 48px;
+		}
+		@media (max-width: 767px) {
+			padding-top: 32px;
 		}
 	}
 }
@@ -125,6 +196,9 @@
 	margin-bottom: 64px;
 	@media (max-width: 1023px) {
 		overflow: auto;
+	}
+	@media (max-width: 767px) {
+		margin-bottom: 32px;
 	}
 	ul {
 		list-style: none;
@@ -141,6 +215,9 @@
 		display: inline-flex;
 		padding: 16px 24px;
 		position: relative;
+		@media (max-width: 767px) {
+			font-size: 18px;
+		}
 		&:after {
 			content: "";
 		    width: 100%;
@@ -163,10 +240,12 @@
 }
 .content-course-tab {
 	position: relative;
-	margin-bottom: 64px;
-	@media (max-width: 1400px) {
-		margin-bottom: 40px;
-	} 
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	@media (max-width: 767px) {
+		margin-bottom: 0;
+    	padding-bottom: 74px;
+	}
 	.tab-content {
 		position: absolute;
 		width: 100%;
@@ -220,15 +299,22 @@
 }
 .slide-course {
 	margin: 0 -16px;
+	@media (max-width: 767px) {
+		margin: 0 -8px;
+	}
 	.item-slide {
 		padding: 0 16px;
+		@media (max-width: 767px) {
+			padding: 0 8px;
+		}
 	}
 }
 
 .slick-dots {
-	position: relative;
-    bottom: 0;
-    margin-top: 30px;
+	bottom: -55px;
+	@media (max-width: 1023px) {
+		display: none !important;
+	}
     button {
     	display: none !important;
     }
@@ -252,17 +338,39 @@
 	@media (max-width: 1400px) {
 		padding: 100px 0;
 	}
+	@media (max-width: 1023px) {
+		padding: 64px 0;
+	}
+	@media (max-width: 767px) {
+		padding: 48px 0;
+	}
 	.title {
 		margin-bottom: 40px;
+	}
+	.avarta {
+		@media (max-width: 1023px) {
+			text-align: center !important;
+		}
+		@media (max-width: 767px) {
+			position: relative;
+		    left: -24px;
+		    width: calc(100% + 48px);
+		}
 	}
 }
 
 .frm-advise {
+	@media (max-width: 1023px) {
+		margin-bottom: 48px;
+	}
 	.row {
 		margin: 0 -8px;
 		>div {
 			padding: 0 8px;
 			margin-bottom: 24px;
+			@media (max-width: 767px) {
+				margin-bottom: 16px;
+			}
 		}
 	}
 	label {
@@ -302,6 +410,9 @@
 }
 .btn-form-contact {
 	margin-top: 40px;
+	@media (max-width: 1023px) {
+		text-align: center;
+	}
 	.item-btn {
 		position: relative;
 		display: inline-flex;
@@ -326,6 +437,10 @@
 				font-size: 18px;
 				height: 48px;
 			}
+			@media (max-width: 767px) {
+				font-size: 16px;
+				height: 40px;
+			}
 		}
 	}
 }
@@ -336,6 +451,12 @@
 	@media (max-width: 1400px) {
 		padding: 100px 0;
 	}
+	@media (max-width: 1023px) {
+		padding: 64px 0 216px 0;
+	}
+	@media (max-width: 767px) {
+		padding: 48px 0 160px 0;
+	}
 	.title {
 		margin-bottom: 24px;
 	}
@@ -344,6 +465,12 @@
 .content-achiev {
 	position: relative;
 	margin-top: 64px;
+	@media (max-width: 1023px) {
+		margin-top: 48px;
+	}
+	@media (max-width: 767px) {
+		margin-top: 32px;
+	}
 	.abs-bv {
 		position: absolute;
 	    top: 0;
@@ -366,19 +493,39 @@
 .item-bangvang {
 	display: flex;
 	padding: 24px;
+	@media (max-width: 1023px) {
+		display: block;
+		position: relative;
+	}
     .avarta {
     	flex: 0 0 504px;
 	    border-radius: 24px;
 	    position: relative;
 	    overflow: hidden;
 	    margin-right: 32px;
+	    @media (max-width: 1023px) {
+	    	margin-right: 0;
+	    	margin-bottom: 24px;
+	    }
+	    img {
+	    	width: 100%;
+	    }
 	    .view-cc {
 	    	position: absolute;
 		    bottom: 24px;
 		    left: 24px;
+		    @media (max-width: 767px) {
+		    	display: none;
+		    }
 	    }
     }
     .info {
+    	@media (max-width: 1023px) {
+    		text-align: center;
+    	}
+    	@media (max-width: 767px) {
+    		font-size: 14px;
+    	}
     	.overall {
     		font-size: 40px;
 		    font-weight: 600;
@@ -388,6 +535,15 @@
 		    align-items: center;
 		    margin-top: -24px;
 		    margin-bottom: 28px;
+		    @media (max-width: 1023px) {
+		    	position: absolute;
+			    top: 0;
+			    right: 40px;
+			    margin: 0;
+		    }
+		    @media (max-width: 767px) {
+		    	display: none;
+		    }
 		    span {
 		    	position: absolute;
 			    width: 100%;
@@ -400,15 +556,24 @@
 		    font-family: 'Montserrat';
 		    margin-bottom: 4px;
 		    color: #E71E25;
+		    @media (max-width: 767px) {
+		    	font-size: 20px;
+		    }
     	}
     	p {
     		display: flex;
     		align-items: center;
+    		@media (max-width: 1023px) {
+    			display: block;
+    		}
     		span {
     			font-size: 20px;
 			    font-weight: 600;
 			    color: #4F4F4F;
 			    font-family: 'Montserrat';
+			    @media (max-width: 767px) {
+			    	font-size: 14px;
+			    }
     		}
     		label {
     			margin: 0;
@@ -417,6 +582,12 @@
 			    padding-left: 12px;
 			    border-left: 1px solid #E5E5E5;
 			    line-height: 1;
+			    @media (max-width: 1023px) {
+			    	padding: 0;
+			    	margin: 0;
+			    	display: block;
+			    	margin-top: 4px;
+			    }
     		}
     	}
     	.list-method {
@@ -425,11 +596,21 @@
     		font-size: 24px;
     		font-family: 'Montserrat';
     		text-align: center;
+    		@media (max-width: 767px) {
+    			margin-top: 24px;
+    			font-size: 18px;
+    		}
     		ul {
     			display: flex;
 				list-style: none;
+				@media (max-width: 1023px) {
+					justify-content: center;
+				}
 				li {
 					margin-right: 50px;
+					@media (max-width: 767px) {
+						margin-right: 14px;
+					}
 					&:last-child {
 						margin-right: 0;
 					}
@@ -445,6 +626,9 @@
 
 .tab-achiev {
 	.top {
+		@media (max-width: 767px) {
+			overflow: auto;
+		}
 		ul {
 			list-style: none;
 		    display: flex;
@@ -453,8 +637,9 @@
 		    font-weight: 500;
 		    font-size: 24px;
 		    font-family: 'Montserrat';
-		    @media (max-width: 1400px) {
+		    @media (max-width: 767px) {
 		    	font-size: 20px;
+		    	width: max-content;
 		    }
 		    li {
 		    	a {
@@ -464,6 +649,9 @@
 		    		text-align: center;
 		    		padding: 16px 24px;
 		    		position: relative;
+		    		@media (max-width: 767px) {
+		    			width: auto;
+		    		}
 		    		&:after {
 		    			content: "";
 		    			width: 100%;
@@ -495,11 +683,21 @@
 	@media (max-width: 1400px) {
 		padding: 100px 0;
 	}
+	@media (max-width: 1023px) {
+		padding: 0 0 64px 0;
+	}
+	@media (max-width: 767px) {
+		padding: 0 0 48px 0;
+	}
 	.btn-main {
-		margin-top: 74px;
-		@media (max-width: 1400px) {
-			margin-top: 40px;
-		}
+		margin-top: 50px;
+    	padding-top: 60px;
+    	@media (max-width: 1023px) {
+    		padding-top: 108px;
+    	}
+    	@media (max-width: 767px) {
+    		padding-top: 56px;
+    	}
 	}
 	.container {
 		position: relative;
@@ -508,13 +706,22 @@
 		position: absolute;
 	    right: -12%;
 	    bottom: 0;
+	    @media (max-width: 1023px) {
+	    	display: none;
+	    }
 	}
 }
 
 .slide-member {
 	margin: 0 -16px;
+	@media (max-width: 767px) {
+		margin: 0 -8px;
+	}
 	.item-slide {
 		padding: 0 16px;
+		@media (max-width: 767px) {
+			padding: 0 8px;
+		}
 	}
 	.item-member {
 		position: relative;
@@ -542,6 +749,12 @@
 	padding: 72px 0;
 	background: #E71E25;
 	overflow: hidden;
+	@media (max-width: 1023px) {
+		padding: 64px 0;
+	}
+	@media (max-width: 767px) {
+		padding: 48px 0;
+	}
 	.row {
 		margin: 0 -48px;
 		>div {
@@ -551,12 +764,23 @@
 	.container {
 		max-width: 1130px;
 	}
+	.col-lg-4 {
+		@media (max-width: 1023px) {
+			margin-bottom: 48px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+		@media (max-width: 767px) {
+			margin-bottom: 32px;
+		}
+	}
 }
 
 .item-numb {
 	font-size: 20px;
-	@media (max-width: 1400px) {
-		font-size: 18px;
+	@media (max-width: 767px) {
+		font-size: 16px;
 	}
 	.numb {
 		padding: 10px 0;
@@ -566,8 +790,8 @@
 	    font-weight: 700;
 	    font-family: 'Montserrat';
 	    line-height: 1.2;
-	    @media (max-width: 1400px) {
-	    	font-size: 64px;
+	    @media (max-width: 767px) {
+	    	font-size: 48px;
 	    }
 	}
 }
@@ -580,6 +804,12 @@
 	@media (max-width: 1400px) {
 		padding: 100px 0;
 	}
+	@media (max-width: 1023px) {
+		padding: 64px 0;
+	}
+	@media (max-width: 767px) {
+		padding: 48px 0;
+	}
 }
 
 .content-video {
@@ -588,6 +818,9 @@
 	border: 3px solid #252222;
 	filter: drop-shadow(2.48614px 4.97228px 0px #232323);
 	border-radius: 30px;
+	@media (max-width: 767px) {
+		border-radius: 16px;
+	}
 	iframe {
 		position: absolute;
 		top: 0;
@@ -595,11 +828,17 @@
 		width: 100%;
 		height: 100%;
 		border-radius: 30px;
+		@media (max-width: 767px) {
+			border-radius: 16px;
+		}
 	}
 	.icon-abs {
 		position: absolute;
 		z-index: 3;
 		pointer-events: none;
+		@media (max-width: 1023px) {
+			display: none;
+		}
 		&.abs-1 {
 			top: 15%;
     		left: -12%;
@@ -620,23 +859,44 @@
 	@media (max-width: 1400px) {
 		padding: 100px 0;
 	}
+	@media (max-width: 1023px) {
+		padding: 64px 0;
+	}
+	@media (max-width: 767px) {
+		padding: 48px 0;
+	}
 	.title {
 		margin-bottom: 24px;
+		@media (max-width: 767px) {
+			margin-bottom: 16px;
+		}
 	}
 	.btn-main {
 		margin-top: 80px;
 		@media (max-width: 1400px) {
 			margin-top: 64px;
 		}
+		@media (max-width: 767px) {
+			margin-top: 32px;
+		}
 	}
 	.tab-achiev {
 		margin-bottom: 64px;
+		@media (max-width: 767px) {
+			margin-bottom: 32px;
+		}
 	}
 }
 .slide-book {
 	margin: 0 -16px;
+	@media (max-width: 767px) {
+		margin: 0 -8px;
+	}
 	.item-slide {
 		padding: 0 16px;
+		@media (max-width: 767px) {
+			padding: 0 8px;
+		}
 	}
 }
 .item-book {
@@ -677,9 +937,19 @@
 }
 .box-feedback {
 	padding: 156px 0 282px 0;
-	background: #FFF8F8;
+	background: url('../images/bn-feedback.jpg') no-repeat center;
+	background-size: cover;
 	@media (max-width: 1400px) {
 		padding: 100px 0;
+	}
+	@media (max-width: 1023px) {
+		padding: 64px 0;
+		.slick-arrow {
+			display: none !important;
+		}
+	}
+	@media (max-width: 767px) {
+		padding: 48px 0;
 	}
 }
 .content-gall-book {
@@ -700,35 +970,90 @@
 	}
 }
 .box-gallery {
-	padding: 0 0 156px 0;
+	padding: 0 0 268px 0;
 	background: #FFF8F8;
 	overflow: hidden;
-	@media (max-width: 1400px) {
-		padding: 0 0 100px 0;
+	@media (max-width: 1023px) {
+		padding: 0px 0 160px 0;
+	}
+	.slick-arrow {
+		top: unset;
+    	bottom: -112px;
+    	@media (max-width: 1023px) {
+    		bottom: -96px;
+    	}
+    	&.slide-left {
+    		left: calc(50% - 55px);
+    	}
+    	&.slide-right {
+    		right: calc(50% - 55px);
+    	}
 	}
 }
 .item-feedback {
 	display: flex;
     align-items: center; 
+    @media (max-width: 1023px) {
+    	display: block;
+    }
+    @media (max-width: 767px) {
+    	font-size: 14px;
+    }
     .avarta {
     	flex: 0 0 456px;
     	margin-right: 115px;
     	@media (max-width: 1200px) {
     		margin-right: 48px;
     	}
+    	@media (max-width: 1023px) {
+    		margin: 0 0 48px 0;
+    		text-align: center;
+    		img {
+    			max-width: 450px;
+    			margin: 0 auto;
+    		}
+    	}
+    	@media (max-width: 767px) {
+    		margin-bottom: 16px;
+    	}
+    }
+    .icon {
+    	@media (max-width: 1023px) {
+    		text-align: center;
+    		img {
+    			display: inline;
+    		}
+    	}
+    	@media (max-width: 767px) {
+    		img {
+    			height: 16px;
+    		}
+    	}
     }
     .desc {
     	margin: 32px 0;
 	    padding-left: 16px;
 	    border-left: 1px solid #252222;
+	    @media (max-width: 767px) {
+	    	margin: 16px 0;
+	    }
     }
     h5 {
     	font-size: 20px;
 	    font-weight: 600;
 	    font-family: 'Montserrat';
+	    @media (max-width: 1023px) {
+	    	text-align: center;
+	    }
+	    @media (max-width: 767px) {
+	    	font-size: 16px;
+	    }
     }
     p {
     	font-size: 14px;
+    	@media (max-width: 1023px) {
+	    	text-align: center;
+	    }
     }
 }
 
@@ -743,6 +1068,9 @@
 	padding: 156px 0;
 	@media (max-width: 1400px) {
 		padding: 100px 0;
+	}
+	@media (max-width: 1023px) {
+		padding: 64px 0;
 	}
 	.btn-main {
 		margin-top: 64px;
@@ -767,16 +1095,15 @@
 		font-size: 24px;
 		@media (max-width: 1400px) {
 			padding: 86px 100px;
-			font-size: 20px;
+		}
+		@media (max-width: 1023px) {
+			padding: 64px 56px;
 		}
 		h3 {
 			font-family: 'Montserrat';
 			font-size: 40px;
 			font-weight: 700;
 			margin-bottom: 24px;
-			@media (max-width: 1400px) {
-				font-size: 32px;
-			}
 		}
 		p {
 			margin-bottom: 40px;

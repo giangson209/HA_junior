@@ -202,7 +202,7 @@
 	<section class="box-form">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-lg-6">
 					<div class="title">
 						<h2>Nhận <label>tư vấn</label> từ <span>HA Junior</span></h2>
 					</div>
@@ -238,7 +238,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-lg-6">
 					<div class="avarta text-right"><img src="images/avr-form.png" class="img-fluid" alt=""></div>
 				</div>
 			</div>
@@ -440,21 +440,21 @@
 		<div class="container">
 			<div class="list-number">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-lg-4">
 						<div class="item-numb text-center">
 							<div class="icon"><img src="images/star.png" class="img-fluid" alt=""></div>
 							<div class="numb">547<span>+</span></div>
 							<p>Học viên đang theo học và đã tốt nghiệp</p>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-lg-4">
 						<div class="item-numb text-center">
 							<div class="icon"><img src="images/star.png" class="img-fluid" alt=""></div>
 							<div class="numb">10<span>+</span></div>
 							<p>Khóa học được đầu tư bài bản, kỹ lưỡng</p>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-lg-4">
 						<div class="item-numb text-center">
 							<div class="icon"><img src="images/star.png" class="img-fluid" alt=""></div>
 							<div class="numb">30<span>+</span></div>
@@ -694,4 +694,5 @@
 	</section>
 </main>
 <?php include 'footer.php';?>
+
 

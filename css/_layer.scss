@@ -33,6 +33,9 @@ input {
 
 html{
   scroll-behavior: smooth;
+  @media (max-width: 767px) {
+    overflow-x: hidden;
+  }
   &.open_menu {
     overflow: hidden;
   }
@@ -50,12 +53,15 @@ body {
 }
 .container {
   max-width: 1230px;
-  @media (max-width: 1320px) {
+  @media (max-width: 1400px) {
     max-width: 100%;
-    padding: 0 60px;
+    padding: 0 100px;
   }
   @media (max-width: 1023px) {
     padding: 0 48px;
+  }
+  @media (max-width: 767px) {
+    padding: 0 24px;
   }
 }
 
