@@ -15,6 +15,14 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'SVN-Gilroy';
+    src: url('../fonts/svn/SVN-GilroyMedium.woff2') format('woff2'),
+        url('../fonts/svn/SVN-GilroyMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 
 @font-face {
     font-family: 'Montserrat';

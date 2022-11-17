@@ -8,8 +8,38 @@ $(document).ready(function(){
 			slidesToScroll: 1,
 			dots: true,
 			infinite: false,
+			responsive: [
+	        { 
+	            breakpoint: 767, 
+	            settings: {
+	                slidesToShow: 2,
+	                slidesToScroll: 1,
+	                // nextArrow: '<a href="javascript:void(0)" class="slide-right"><img src="images/slide-right.png" class="img-fluid" alt=""></a>',
+					// prevArrow: '<a href="javascript:void(0)" class="slide-left"><img src="images/slide-left.png" class="img-fluid" alt=""></a>',
+	            }
+	        },
+	        { 
+	            breakpoint: 575, 
+	            settings: {
+	                slidesToShow: 1,
+	                slidesToScroll: 1,
+	                // nextArrow: '<a href="javascript:void(0)" class="slide-right"><img src="images/slide-right.png" class="img-fluid" alt=""></a>',
+					// prevArrow: '<a href="javascript:void(0)" class="slide-left"><img src="images/slide-left.png" class="img-fluid" alt=""></a>',
+	            }
+	        }
+	    ],
 		});
 	}
+
+	$('.slide-banner').slick({
+		autoplay:false,
+		arrow:true,
+		slidesToShow: 1,
+		slidesToScroll: 1, 
+		dots: true,
+		nextArrow: '<a href="javascript:void(0)" class="slide-right"><img src="images/slide-right.png" class="img-fluid" alt=""></a>',
+		prevArrow: '<a href="javascript:void(0)" class="slide-left"><img src="images/slide-left.png" class="img-fluid" alt=""></a>',
+	});
 
 	$('.slide-course').slick({
 		autoplay:false,
@@ -155,7 +185,7 @@ $(document).ready(function(){
 	        { 
 	            breakpoint: 575, 
 	            settings: {
-	                slidesToShow: 2,
+	                slidesToShow: 1,
 	                slidesToScroll: 1
 	            }
 	        }
@@ -171,6 +201,14 @@ $(document).ready(function(){
 		$(this).addClass('active');
 		$("#"+tab_id).addClass('active');
 	})
+
+	$('.btn-bar a').click(function(event) {
+		$('html, .nav-menu').addClass('open_menu');
+	});
+
+	$('.close-menu a').click(function(event) {
+		$('html, .nav-menu').removeClass('open_menu');
+	});
 
 })
 

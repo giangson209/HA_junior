@@ -3,7 +3,13 @@
 	<section class="box-banner">
 		<div class="slide-banner">
 			<div class="item-slide">
-				<div class="item-banner"></div>
+				<div class="item-banner"><img src="images/banner.png" class="img-fluid w-100" alt=""></div>
+			</div>
+			<div class="item-slide">
+				<div class="item-banner"><img src="images/banner.png" class="img-fluid w-100" alt=""></div>
+			</div>
+			<div class="item-slide">
+				<div class="item-banner"><img src="images/banner.png" class="img-fluid w-100" alt=""></div>
 			</div>
 		</div> 
 	</section>
@@ -265,95 +271,7 @@
 								<div class="item-bangvang">
 									<div class="avarta">
 										<img src="images/avr-bv.png" class="img-fluid w-100" alt="">
-										<div class="view-cc"><a href="javascript:void(0)"><img src="images/view-chungchi.png" class="img-fluid" alt=""></a></div>
-									</div>
-									<div class="info">
-										<div class="overall">
-											<img src="images/overall.png" class="img-fluid" alt="">
-											<span>6.5</span>
-										</div>
-										<h4>Nguyễn Đình Sinh Quảng</h4>
-										<p><span>Lớp IELTS SPECIAL</span><label>Trường THPT Đình Bảng</label></p>
-										<div class="list-method text-center">
-											<ul>
-												<li>
-													<div class="item-method">
-														<div class="icon"><img src="images/nghe.png" class="img-fluid" alt=""></div>
-														<p>7.5</p>
-													</div>
-												</li>
-												<li>
-													<div class="item-method">
-														<div class="icon"><img src="images/noi.png" class="img-fluid" alt=""></div>
-														<p>7.5</p>
-													</div>
-												</li>
-												<li>
-													<div class="item-method">
-														<div class="icon"><img src="images/doc.png" class="img-fluid" alt=""></div>
-														<p>7.5</p>
-													</div>
-												</li>
-												<li>
-													<div class="item-method">
-														<div class="icon"><img src="images/viet.png" class="img-fluid" alt=""></div>
-														<p>7.5</p>
-													</div>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="item-slide">
-								<div class="item-bangvang">
-									<div class="avarta">
-										<img src="images/avr-bv.png" class="img-fluid w-100" alt="">
-										<div class="view-cc"><a href="javascript:void(0)"><img src="images/view-chungchi.png" class="img-fluid" alt=""></a></div>
-									</div>
-									<div class="info">
-										<div class="overall">
-											<img src="images/overall.png" class="img-fluid" alt="">
-											<span>6.5</span>
-										</div>
-										<h4>Nguyễn Đình Sinh Quảng</h4>
-										<p><span>Lớp IELTS SPECIAL</span><label>Trường THPT Đình Bảng</label></p>
-										<div class="list-method text-center">
-											<ul>
-												<li>
-													<div class="item-method">
-														<div class="icon"><img src="images/nghe.png" class="img-fluid" alt=""></div>
-														<p>7.5</p>
-													</div>
-												</li>
-												<li>
-													<div class="item-method">
-														<div class="icon"><img src="images/noi.png" class="img-fluid" alt=""></div>
-														<p>7.5</p>
-													</div>
-												</li>
-												<li>
-													<div class="item-method">
-														<div class="icon"><img src="images/doc.png" class="img-fluid" alt=""></div>
-														<p>7.5</p>
-													</div>
-												</li>
-												<li>
-													<div class="item-method">
-														<div class="icon"><img src="images/viet.png" class="img-fluid" alt=""></div>
-														<p>7.5</p>
-													</div>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="item-slide">
-								<div class="item-bangvang">
-									<div class="avarta">
-										<img src="images/avr-bv.png" class="img-fluid w-100" alt="">
-										<div class="view-cc"><a href="javascript:void(0)"><img src="images/view-chungchi.png" class="img-fluid" alt=""></a></div>
+										<div class="view-cc"><a href="javascript:void(0)" data-toggle="modal" data-target="#modal-chungchi"><img src="images/view-chungchi.png" class="img-fluid" alt=""></a></div>
 									</div>
 									<div class="info">
 										<div class="overall">
@@ -397,6 +315,17 @@
 					</div>
 				</div>
 			</div>
+		</div>
+
+		<div class="modal fade" id="modal-chungchi">
+			<div class="close-popup"><a href="javascript:void(0)" data-dismiss="modal"><img src="images/close-chungchi.png" class="img-fluid" alt=""></a></div>
+		  	<div class="modal-dialog dialog-chungchi">
+			    <div class="modal-content">
+			      	<div class="modal-body">
+			        	<div class="content-popup-chungchi"><img src="images/chungchi.png" class="img-fluid" alt=""></div>
+			      	</div>
+			    </div>
+		  	</div>
 		</div>
 	</section>
 	<section class="box-memmber">
@@ -471,7 +400,7 @@
 				<div class="icon-abs abs-1"><img src="images/vd-1.png" class="img-fluid" alt=""></div>
 				<div class="icon-abs abs-2"><img src="images/vd-2.png" class="img-fluid" alt=""></div>
 				<div class="icon-abs abs-3"><img src="images/vd-3.png" class="img-fluid" alt=""></div>
-				<iframe width="1280" height="720" src="https://www.youtube.com/embed/KUtaJeL_FzE?list=RDKUtaJeL_FzE" title="FBBOIZ - Để Em Rời Xa (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="1280" height="706" src="https://www.youtube.com/embed/khAKbJ2Xfn8" title="[VTV2] Từ nhà đến trường: Mr. Hà chia sẻ về việc học ngoại ngữ của học sinh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 	</section>
