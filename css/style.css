@@ -2180,4 +2180,363 @@ header .container {
   }
 }
 
+.box-breadcrumbs {
+  position: relative;
+  padding: 80px 0 95px 0;
+  background: url("../images/bread.png") no-repeat center;
+  background-size: cover;
+}
+
+.cap-bread h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #252222;
+  margin-bottom: 6px;
+}
+.cap-bread ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.cap-bread ul li {
+  margin-right: 24px;
+  position: relative;
+}
+.cap-bread ul li:after {
+  content: ">";
+  position: absolute;
+  top: 0;
+  right: -17px;
+}
+.cap-bread ul li:last-child {
+  margin-right: 0;
+}
+.cap-bread ul li:last-child:after {
+  display: none;
+}
+.cap-bread ul li:last-child a {
+  color: #E71E25;
+}
+
+.shedule-hot {
+  padding: 56px 0 64px 0;
+  border-bottom: 1px solid #E5E5E5;
+  margin-bottom: 64px;
+  font-weight: 400;
+  color: #4F4F4F;
+}
+.shedule-hot .row {
+  margin: 0 20px;
+}
+.shedule-hot .row > div {
+  padding: 0 20px;
+}
+.shedule-hot .time {
+  font-size: 14px;
+  color: #757575;
+}
+.shedule-hot h2 a {
+  display: block;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Montserrat";
+  padding: 16px 0;
+}
+.shedule-hot .desc {
+  margin-bottom: 48px;
+}
+
+.view-detail-big a {
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #252222;
+  border-radius: 67px;
+  padding: 0 24px;
+  height: 54px;
+}
+.view-detail-big a img {
+  margin-left: 16px;
+  position: relative;
+  top: 1px;
+}
+
+.date-schedule {
+  color: #4F4F4F;
+  font-size: 14px;
+  position: sticky;
+  top: 20px;
+}
+.date-schedule .time {
+  color: #252222;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.item-date-schedule {
+  margin-bottom: 64px;
+}
+
+.item-schedule {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  color: #4F4F4F;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #E5E5E5;
+}
+.item-schedule:last-child {
+  margin-bottom: 0;
+}
+.item-schedule .avarta {
+  flex: 0 0 380px;
+  margin-left: 64px;
+}
+.item-schedule h3 a {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Montserrat";
+}
+.item-schedule .desc {
+  padding: 8px 0 24px 0;
+}
+
+.view-detail a {
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 20px;
+  height: 40px;
+  border: 2px solid #252222;
+  border-radius: 67px;
+}
+.view-detail a img {
+  margin-left: 10px;
+  position: relative;
+  top: 1px;
+}
+
+.pagination ul {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  font-weight: 600;
+  justify-content: center;
+}
+.pagination ul li {
+  margin-right: 8px;
+}
+.pagination ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.pagination ul li a.active, .pagination ul li a:hover {
+  color: #fff;
+  background: #E71E25;
+}
+
+.box-schedule {
+  padding: 0 0 156px 0;
+}
+
+.detail-schedule {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 156px 0;
+}
+.detail-schedule .left {
+  flex: 0 0 calc(100% - 396px);
+}
+.detail-schedule .right {
+  flex: 0 0 340px;
+  margin-left: 56px;
+}
+
+.box-form-sidebar {
+  border: 1px solid #252222;
+  box-shadow: 2px 4px 0px #232323;
+  border-radius: 24px;
+  padding: 24px;
+}
+.box-form-sidebar .t-form {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.box-form-sidebar .item-frm {
+  margin-bottom: 24px;
+}
+.box-form-sidebar .item-frm:last-child {
+  margin-bottom: 0;
+}
+.box-form-sidebar .item-frm label {
+  margin-bottom: 8px;
+  display: block;
+}
+.box-form-sidebar .item-frm .txt_field, .box-form-sidebar .item-frm select {
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  border-radius: 8px;
+  width: 100%;
+  height: 48px;
+  padding: 0 15px;
+  outline: none;
+}
+.box-form-sidebar .item-frm textarea {
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  border-radius: 8px;
+  width: 100%;
+  height: 125px;
+  padding: 10px 15px;
+  outline: none;
+}
+.box-form-sidebar .btn-frm {
+  display: inline-flex;
+  position: relative;
+}
+.box-form-sidebar .btn-frm:after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: url(../images/btn-book.png) no-repeat center;
+  background-size: contain;
+  position: absolute;
+  top: 7px;
+  left: 18px;
+}
+.box-form-sidebar .btn-frm .btn_field {
+  height: 39px;
+  background: #E71E25;
+  border: 2px solid #252222;
+  border-radius: 48px;
+  color: #fff;
+  font-weight: 600;
+  padding: 0 20px 3px 52px;
+}
+
+.box-schedule-detail .avr-banner {
+  margin-bottom: 56px;
+}
+
+.bread-detail ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bread-detail ul li {
+  margin-right: 24px;
+  position: relative;
+}
+.bread-detail ul li:after {
+  content: ">";
+  position: absolute;
+  top: 1px;
+  right: -16px;
+}
+.bread-detail ul li:last-child {
+  margin-right: 0;
+}
+.bread-detail ul li:last-child:after {
+  display: none;
+}
+.bread-detail ul li:last-child a {
+  color: #E71E25;
+  font-weight: 600;
+}
+
+.detail-schedule {
+  margin-top: 32px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.detail-schedule .detail-head {
+  margin-bottom: 56px;
+}
+.detail-schedule .detail-head h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.detail-schedule .detail-head .date {
+  font-weight: 600;
+  color: #4F4F4F;
+}
+.detail-schedule .detail-head .date span {
+  color: #409A61;
+}
+
+.info-detail p {
+  margin-bottom: 20px;
+}
+.info-detail h2, .info-detail h3, .info-detail h4, .info-detail h5, .info-detail h6 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #212121;
+}
+
+.bott-author-detail {
+  color: #4F4F4F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 56px 0;
+  border-bottom: 1px solid #E5E5E5;
+}
+.bott-author-detail ul {
+  list-style: none;
+}
+.bott-author-detail .left-author {
+  font-size: 20px;
+  padding-left: 24px;
+  border-left: 3px solid #E71E25;
+}
+.bott-author-detail .left-author span {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+}
+.bott-author-detail .right-social {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: right;
+}
+.bott-author-detail .right-social ul {
+  margin-top: 8px;
+  display: flex;
+}
+.bott-author-detail .right-social ul li {
+  margin-right: 24px;
+}
+.bott-author-detail .right-social ul li:last-child {
+  margin-right: 0;
+}
+
+.item-other-sche {
+  font-size: 14px;
+  color: #4F4F4F;
+}
+.item-other-sche h3 a {
+  display: block;
+  font-size: 20px;
+  padding: 24px 0 8px 0;
+  font-weight: 600;
+}
+
+.box-other-schedule {
+  padding: 0 0 156px 0;
+}
+.box-other-schedule .btn-main {
+  margin-top: 64px;
+}
+
 /*# sourceMappingURL=style.css.map */
