@@ -1,0 +1,49 @@
+.list-secret {
+	.col-md-4 {
+		margin-bottom: 64px;
+	}
+}
+.new-sidebar {
+	margin-bottom: 64px;
+}
+.title-bar {
+	font-size: 24px;
+    font-weight: 600;
+    color: #313131;
+    font-family: 'Montserrat';
+    position: relative;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+    &:after {
+    	content: "";
+    	width: 64px;
+    	height: 4px;
+    	background: $red;
+    	position: absolute;
+    	left: 0;
+    	bottom: 0;
+    }
+}
+.item-newbar {
+	display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+    &:last-child {
+    	margin-bottom: 0;
+    }
+    .avarta {
+    	flex: 0 0 146px;
+    	margin-right: 24px;
+    }
+    .info {
+    	a {
+    		display: block;
+		    font-size: 18px;
+		    font-weight: 600;
+		    line-height: initial;
+    	}
+    }
+}
+.banner-sidebar {
+	margin-top: 64px;
+}

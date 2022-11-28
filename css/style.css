@@ -176,9 +176,6 @@ input {
   transition: all 0.3s ease-in-out 0s;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 @media (max-width: 767px) {
   html {
     overflow-x: hidden;
@@ -191,7 +188,7 @@ html.open_menu {
 body {
   max-width: 100%;
   overflow-x: hidden;
-  color: #000;
+  color: #4f4f4f;
   width: 100%;
   height: 100%;
   font-size: 16px;
@@ -724,6 +721,7 @@ header .container {
   font-size: 40px;
   font-weight: 700;
   font-family: "Montserrat";
+  color: #212121;
 }
 @media (max-width: 767px) {
   .title h2 {
@@ -2241,6 +2239,7 @@ header .container {
   font-weight: 600;
   font-family: "Montserrat";
   padding: 16px 0;
+  letter-spacing: -1px;
 }
 .shedule-hot .desc {
   margin-bottom: 48px;
@@ -2466,6 +2465,7 @@ header .container {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 24px;
+  color: #212121;
 }
 .detail-schedule .detail-head .date {
   font-weight: 600;
@@ -2536,6 +2536,348 @@ header .container {
   padding: 0 0 156px 0;
 }
 .box-other-schedule .btn-main {
+  margin-top: 64px;
+}
+
+.box-course-cate {
+  padding: 156px 0;
+}
+
+.content-cate-course .col-md-6 {
+  margin-top: 40px;
+}
+.content-cate-course .col-md-6:first-child, .content-cate-course .col-md-6:nth-child(2) {
+  margin-top: 0;
+}
+
+.course-box {
+  margin-bottom: 156px;
+}
+.course-box:last-child {
+  margin-bottom: 0;
+}
+.course-box .title-course {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 48px;
+  position: relative;
+  font-family: "Montserrat";
+}
+.course-box .title-course:After {
+  content: "";
+  height: 9px;
+  width: 64px;
+  background: #FFC020;
+  position: absolute;
+  left: 0;
+  bottom: -9px;
+}
+
+.sidebar-course {
+  position: sticky;
+  top: 20px;
+}
+.sidebar-course ul {
+  list-style: none;
+  max-width: 324px;
+}
+.sidebar-course ul li a {
+  display: block;
+  padding: 20px 24px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  font-size: 24px;
+  background: transparent;
+  border-left: 3px solid transparent;
+}
+.sidebar-course ul li a.active {
+  border-left: 3px solid #E71E25;
+  background: #FFF8F8;
+}
+
+.bread-course {
+  padding: 80px 0;
+  color: #757575;
+}
+.bread-course h1 {
+  color: #E71E25;
+  font-size: 48px;
+  font-weight: 700;
+  padding: 26px 0 0 0;
+  font-family: "Montserrat";
+}
+.bread-course p {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Montserrat";
+  padding-bottom: 24px;
+}
+.bread-course .date {
+  color: #4F4F4F;
+  font-weight: 600;
+}
+.bread-course .date span {
+  color: #409A61;
+}
+
+.detail-content-course {
+  padding: 56px 0 156px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.detail-content-course .left {
+  flex: 0 0 calc(100% - 500px);
+  max-width: 667px;
+}
+.detail-content-course .right {
+  flex: 0 0 412px;
+  margin-left: 88px;
+}
+
+.tab-detail-course {
+  margin-bottom: 56px;
+}
+.tab-detail-course ul {
+  list-style: none;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+.tab-detail-course ul li a {
+  display: block;
+  padding: 16px 24px;
+  font-size: 24px;
+  font-weight: 500;
+  background: transparent;
+  border-bottom: 3px solid transparent;
+}
+.tab-detail-course ul li a.active {
+  font-weight: 600;
+  color: #252222;
+  border-bottom: 3px solid #E71E25;
+}
+
+.detail ul {
+  padding-left: 18px;
+  margin-bottom: 16px;
+}
+.detail img {
+  max-width: 100%;
+  height: auto !important;
+}
+
+.content-detail-cour {
+  font-size: 18px;
+  font-weight: 300;
+}
+.content-detail-cour .detail h2, .content-detail-cour .detail h3, .content-detail-cour .detail h4, .content-detail-cour .detail h5, .content-detail-cour .detail h6 {
+  padding: 36px 0 16px 0;
+  color: #252222;
+  font-weight: 600;
+  font-family: "Montserrat";
+}
+.content-detail-cour .detail h3 {
+  font-size: 24px;
+}
+.content-detail-cour .detail p {
+  margin-bottom: 15px;
+}
+
+.info-course {
+  font-size: 18px;
+  color: #252222;
+  position: sticky;
+  top: 20px;
+}
+.info-course .aavrta {
+  margin-bottom: 32px;
+}
+.info-course ul {
+  list-style: none;
+}
+.info-course .info ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #E5E5E5;
+}
+.info-course .info ul li span {
+  font-weight: 300;
+}
+.info-course .info ul li .span-cour {
+  display: flex;
+  align-items: center;
+}
+.info-course .info ul li .span-cour img {
+  margin-right: 12px;
+}
+
+.share-cour {
+  font-weight: 600;
+  color: #4F4F4F;
+}
+.share-cour ul {
+  display: flex;
+  margin-top: 24px;
+}
+.share-cour ul li {
+  margin-right: 24px;
+}
+.share-cour ul li:last-child {
+  margin-right: 0;
+}
+
+.form-course {
+  position: relative;
+  background: #FFFFFF;
+  border: 1px solid #252222;
+  box-shadow: 2px 4px 0px #232323;
+  border-radius: 24px;
+  margin-top: 56px;
+  padding: 32px;
+  color: #252222;
+}
+.form-course .icon-abs {
+  position: absolute;
+  top: -34px;
+  left: 6%;
+}
+.form-course .title {
+  margin-bottom: 48px;
+}
+.form-course .title h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.content-frm-cour .row {
+  margin: 0 -8px;
+}
+.content-frm-cour .row > div {
+  padding: 0 8px;
+  margin-bottom: 24px;
+}
+.content-frm-cour .row > div:last-child {
+  margin-bottom: 0;
+}
+.content-frm-cour label {
+  display: block;
+}
+.content-frm-cour .txt_field, .content-frm-cour select {
+  border: 1px solid #D8D8D8;
+  border-radius: 8px;
+  border-radius: 8px;
+  padding: 0 15px;
+  outline: none;
+  width: 100%;
+  height: 48px;
+}
+.content-frm-cour textarea {
+  border: 1px solid #D8D8D8;
+  border-radius: 8px;
+  border-radius: 8px;
+  padding: 10px 15px;
+  outline: none;
+  width: 100%;
+  height: 138px;
+}
+.content-frm-cour .btn_field {
+  height: 54px;
+  background: #E71E25;
+  border: 2px solid #252222;
+  border-radius: 48px;
+  color: #fff;
+  font-weight: 600;
+  padding: 0 20px 1px 52px;
+  font-size: 20px;
+  font-family: "Montserrat";
+}
+.content-frm-cour .btn-form {
+  position: relative;
+  display: inline-flex;
+}
+.content-frm-cour .btn-form:after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  background: url(../images/btn-book.png) no-repeat center;
+  background-size: contain;
+  position: absolute;
+  top: 15px;
+  left: 18px;
+}
+
+.noidung {
+  background: #E7EBF6;
+  padding: 24px;
+  margin-top: 56px;
+}
+.noidung p {
+  display: flex;
+  align-items: flex-start;
+}
+.noidung p img {
+  flex: 0 0 24px;
+  margin-right: 12px;
+}
+
+.tab-course {
+  display: none;
+}
+.tab-course.active {
+  display: block;
+}
+
+.list-secret .col-md-4 {
+  margin-bottom: 64px;
+}
+
+.new-sidebar {
+  margin-bottom: 64px;
+}
+
+.title-bar {
+  font-size: 24px;
+  font-weight: 600;
+  color: #313131;
+  font-family: "Montserrat";
+  position: relative;
+  padding-bottom: 8px;
+  margin-bottom: 32px;
+}
+.title-bar:after {
+  content: "";
+  width: 64px;
+  height: 4px;
+  background: #E71E25;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.item-newbar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.item-newbar:last-child {
+  margin-bottom: 0;
+}
+.item-newbar .avarta {
+  flex: 0 0 146px;
+  margin-right: 24px;
+}
+.item-newbar .info a {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: initial;
+}
+
+.banner-sidebar {
   margin-top: 64px;
 }
 

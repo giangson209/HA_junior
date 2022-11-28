@@ -202,12 +202,33 @@ $(document).ready(function(){
 		$("#"+tab_id).addClass('active');
 	})
 
+	$('.tab-detail-course a').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('.tab-detail-course a').removeClass('active'); 
+		$('.tab-course').removeClass('active');
+
+		$(this).addClass('active');
+		$("#"+tab_id).addClass('active');
+	})
+
 	$('.btn-bar a').click(function(event) {
 		$('html, .nav-menu').addClass('open_menu');
 	});
 
 	$('.close-menu a').click(function(event) {
 		$('html, .nav-menu').removeClass('open_menu');
+	});
+
+	$('.sidebar-course a').click(function(e){
+	  e.preventDefault();
+	  var target = $($(this).attr('href'));
+	  if(target.length){
+	    var scrollTo = target.offset().top - 48;
+	    $('body, html').animate({scrollTop: scrollTo+'px'}, 600);
+	  }
+	  $('.sidebar-course a').removeClass("active");
+	  $(this).addClass("active");
 	});
 
 })

@@ -41,7 +41,7 @@
                         <ul>
                             <li><a href="">Giới thiệu</a></li>
                             <li><a href="">Khóa học</a></li>
-                            <li><a href="">Lịch Khai giảng</a></li>
+                            <li><a href="schedule.php">Lịch Khai giảng</a></li>
                             <li><a href="">Thư viện</a></li>
                             <li><a href="">Tin tức - Sự kiện</a></li>
                         </ul>
