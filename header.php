@@ -31,19 +31,35 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> 
     <div class="header-menu">
         <div class="container">
             <div class="content-menu">
                 <div class="left">
-                    <div class="logo"><a href=""><img src="images/logo.png" class="img-fluid" alt=""></a></div>
+                    <div class="logo"><a href="index.php"><img src="images/logo.png" class="img-fluid" alt=""></a></div>
                     <div class="h-menu">
                         <ul>
-                            <li><a href="">Giới thiệu</a></li>
-                            <li><a href="">Khóa học</a></li>
+                            <li><a href="about.php">Giới thiệu</a></li>
+                            <li><a href="course.php">Khóa học</a></li>
                             <li><a href="schedule.php">Lịch Khai giảng</a></li>
-                            <li><a href="">Thư viện</a></li>
-                            <li><a href="">Tin tức - Sự kiện</a></li>
+                            <li>
+                                <a href="">Thư viện</a> <img src="images/arrow-menu.png" class="img-fluid" alt="">
+                                <div class="submenu">
+                                    <ul>
+                                        <li><a href="tusach.php">Tủ sách cho trẻ</a></li> 
+                                        <li><a href="biquyet.php">Bí quyết học tập</a></li> 
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="">Tin tức - Sự kiện</a> <img src="images/arrow-menu.png" class="img-fluid" alt="">
+                                <div class="submenu">
+                                    <ul>
+                                        <li><a href="news.php">Tin tức</a></li>
+                                        <li><a href="event.php">Sự kiện</a></li>
+                                    </ul>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -59,7 +75,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="" class="search-head">
+                                <a href="javascript:void(0)" class="search-head" data-toggle="modal" data-target="#mySearch">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M22 22L20 20M11.5 21C12.7476 21 13.9829 20.7543 15.1355 20.2769C16.2881 19.7994 17.3354 19.0997 18.2175 18.2175C19.0997 17.3354 19.7994 16.2881 20.2769 15.1355C20.7543 13.9829 21 12.7476 21 11.5C21 10.2524 20.7543 9.0171 20.2769 7.86451C19.7994 6.71191 19.0997 5.66464 18.2175 4.78249C17.3354 3.90033 16.2881 3.20056 15.1355 2.72314C13.9829 2.24572 12.7476 2 11.5 2C8.98044 2 6.56408 3.00089 4.78249 4.78249C3.00089 6.56408 2 8.98044 2 11.5C2 14.0196 3.00089 16.4359 4.78249 18.2175C6.56408 19.9991 8.98044 21 11.5 21V21Z" stroke="#252222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
@@ -76,7 +92,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 col-sm-6 col-6">
-                    <div class="logo"><img src="images/logo.png" class="img-fluid" alt=""></div>
+                    <div class="logo"><a href="index.php"><img src="images/logo.png" class="img-fluid" alt=""></a></div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-6 text-right">
                     <div class="btn-bar"><a href="javascript:void(0)"><img src="images/bar.svg" class="img-fluid" alt=""></a></div>
@@ -87,12 +103,28 @@
             <div class="top-menu">
                 <div class="close-menu"><a href="javascript:void(0)"><img src="images/close.svg" class="img-fluid" alt=""></a></div>
                 <ul>
-                    <li><a href="">Trang chủ</a></li>
-                    <li><a href="">Giới thiệu</a></li>
-                    <li><a href="">Khóa học</a></li>
-                    <li><a href="">Lịch Khai giảng</a></li>
-                    <li><a href="">Thư viện</a></li>
-                    <li><a href="">Tin tức - Sự kiện</a></li>
+                    <li><a href="index.php">Trang chủ</a></li>
+                    <li><a href="about.php">Giới thiệu</a></li>
+                    <li><a href="course.php">Khóa học</a></li>
+                    <li><a href="schedule.php">Lịch Khai giảng</a></li>
+                    <li>
+                        <a href="javascript:void(0)">Thư viện <img src="images/arrow-menu.png" class="img-fluid" alt=""></a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="tusach.php">Tủ sách cho trẻ</a></li> 
+                                <li><a href="biquyet.php">Bí quyết học tập</a></li> 
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">Tin tức - Sự kiện <img src="images/arrow-menu.png" class="img-fluid" alt=""></a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="news.php">Tin tức</a></li>
+                                <li><a href="event.php">Sự kiện</a></li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
             </div> 
             <div class="menu-right">
@@ -105,8 +137,8 @@
                             <span>Bài test Online</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="" class="search-head">
+                    <li> 
+                        <a href="javascript:void(0)" class="search-head" data-toggle="modal" data-target="#mySearch">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M22 22L20 20M11.5 21C12.7476 21 13.9829 20.7543 15.1355 20.2769C16.2881 19.7994 17.3354 19.0997 18.2175 18.2175C19.0997 17.3354 19.7994 16.2881 20.2769 15.1355C20.7543 13.9829 21 12.7476 21 11.5C21 10.2524 20.7543 9.0171 20.2769 7.86451C19.7994 6.71191 19.0997 5.66464 18.2175 4.78249C17.3354 3.90033 16.2881 3.20056 15.1355 2.72314C13.9829 2.24572 12.7476 2 11.5 2C8.98044 2 6.56408 3.00089 4.78249 4.78249C3.00089 6.56408 2 8.98044 2 11.5C2 14.0196 3.00089 16.4359 4.78249 18.2175C6.56408 19.9991 8.98044 21 11.5 21V21Z" stroke="#252222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
@@ -114,6 +146,22 @@
                         </a>
                     </li>
                 </ul>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mySearch">
+        <div class="modal-dialog dialog-search">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form action="search.php">
+                        <div class="modal-search-bx">
+                            <input type="text" class="txt_search" placeholder="Nhập từ khóa tìm kiếm">
+                            <div class="btn-search-head">
+                                <button><img src="images/btn-search.png" class="img-fluid" alt=""></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>

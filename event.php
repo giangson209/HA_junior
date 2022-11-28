@@ -3,10 +3,10 @@
 	<section class="box-breadcrumbs">
 		<div class="container">
 			<div class="cap-bread text-center">
-				<h2>Tin tức</h2>
+				<h2>Sự kiện</h2>
 				<ul>
 					<li><a href="">Trang chủ</a></li>
-					<li><a href="">Tin tức</a></li>
+					<li><a href="">Sự kiện</a></li>
 				</ul> 
 			</div>
 		</div>
@@ -32,11 +32,14 @@
 				<div class="row">
 					<?php
                     for ($x = 1; $x <= 12; $x++) { ?>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
 							<div class="item-book">
 								<div class="avarta"><a href="detail.php" tabindex="0"><img src="images/bq-2.png" class="img-fluid w-100" alt=""></a></div>
 								<div class="info">
 									<h3><a href="detail.php" tabindex="0">Tưng bừng Khai trương Cơ sở mới tại Từ Sơn - Bắc Ninh</a></h3>
+									<div class="desc">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.
+									</div>
 									<p><span>Sự kiện</span><label>3 giờ trước</label></p>
 								</div>
 							</div>

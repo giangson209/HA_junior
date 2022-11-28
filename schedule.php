@@ -15,10 +15,10 @@
 		<div class="container">
 			<div class="shedule-hot">
 				<div class="row align-items-center">
-					<div class="col-md-6">
+					<div class="col-lg-6">
 						<div class="avarta"><a href="schedule-detail.php"><img src="images/lich-1.png" class="img-fluid" alt=""></a></div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-lg-6">
 						<div class="info">
 							<div class="time">Cập nhật 3 giờ trước</div>
 							<h2><a href="">Khai giảng khóa Kiddie A tháng 11 cơ sở Hà Nội</a></h2>

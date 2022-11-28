@@ -1,6 +1,9 @@
 .list-secret {
-	.col-md-4 {
+	.col-lg-4 {
 		margin-bottom: 64px;
+        @media (max-width: 767px) {
+            margin-bottom: 40px;
+        }
 	}
 }
 .new-sidebar {
@@ -11,7 +14,7 @@
     font-weight: 600;
     color: #313131;
     font-family: 'Montserrat';
-    position: relative;
+    position: relative; 
     padding-bottom: 8px;
     margin-bottom: 32px;
     &:after {
@@ -46,4 +49,184 @@
 }
 .banner-sidebar {
 	margin-top: 64px;
+}
+.error-page {
+    padding: 60px 0 160px 0;
+    @media (max-width: 1023px) {
+        padding: 64px 0;
+    }
+    @media (max-width: 767px) {
+        padding: 40px 0;
+    }
+    h2 {
+        padding: 32px 0 56px 0;
+        font-size: 40px;
+        font-weight: 700;
+        font-family: 'Montserrat';
+        color: #313131;
+        @media (max-width: 1023px) {
+            padding: 32px 0 48px 0;
+            font-size: 32px;
+        }
+        @media (max-width: 767px) {
+            padding: 16px 0 24px 0;
+            font-size: 20px;
+        }
+    }
+    .avr-err {
+        img {
+            @media (max-width: 1023px) {
+                height: 165px;
+            }
+            @media (max-width: 767px) {
+                height: 123px;
+            }
+        }
+    }
+}
+.go-home {
+    a {
+        height: 54px;
+        border: 2px solid #252222;
+        border-radius: 67px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 24px 2px 24px;
+        font-size: 20px;
+        font-weight: 600;
+        @media (max-width: 767px) {
+            font-size: 16px;
+            height: 40px;
+        }
+        svg {
+            margin-left: 16px;
+            position: relative;
+            top: 2px;
+        }
+    }
+}
+
+.result-search {
+    padding: 56px 0;
+    color: #212121;
+    @media (max-width: 767px) {
+        padding: 48px 0 24px 0;
+    }
+    h1 {
+        font-size: 48px;
+        font-weight: 700;
+        font-family: 'Montserrat';
+        margin-bottom: 56px;
+        @media (max-width: 1023px) {
+            font-size: 32px;
+            margin-bottom: 48px;
+        }
+        @media (max-width: 767px) {
+            font-size: 20px;
+            margin-bottom: 24px;
+        }
+        span {
+            color: #409A61;
+            display: block;
+        }
+    }
+}
+.numb-result {
+    font-size: 18px;
+    font-weight: 600;
+    @media (max-width: 1023px) {
+        font-size: 16px;
+    }
+    @media (max-width: 767px) {
+        font-size: 14px;
+    }
+    span {
+        color: #E71E25;
+    }
+}
+.result-none {
+    padding: 20px 0 56px 0;
+    @media (max-width: 1023px) {
+        padding: 20px 0 48px 0;
+    }
+    @media (max-width:767px) {
+        padding: 20px 0;
+
+    }
+}
+.avarta-result {
+    img {
+        @media (max-width: 1023px) {
+            height: 250px;
+        }
+        @media (max-width: 767px) {
+            height: 188px;
+        }
+    }
+}
+.dialog-search {
+    max-width: 923px;
+    margin-top: 10%;
+    @media (max-width: 1023px) {
+        max-width: 100%;
+        padding: 0 56px;
+        margin-top: 25%;
+    }
+    @media (max-width: 767px) {
+        padding: 0 24px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .modal-content {
+        border-radius: 0;
+        border: 0;
+        background: transparent;
+    }
+    .modal-body {
+        padding: 0;
+    }
+}
+.modal-search-bx {
+    background: #FFFFFF;
+    border: 1px solid #252222;
+    box-shadow: 2px 4px 0px #232323;
+    border-radius: 12px;
+    position: relative;
+    padding: 16px;
+    button {
+        cursor: pointer;
+        border: 0;
+        background: transparent;
+        padding: 0;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        outline: none;
+        @media (max-width: 767px) {
+            font-size: 14px;
+            position: relative;
+            top: 0;
+            right: 0;
+        }
+    }
+    .txt_search {
+        width: 100%;
+        padding: 0 20px;
+        height: 40px;
+        background: transparent;
+        border: 0;
+        outline: none;
+        font-size: 16px;
+        @media (max-width: 767px) {
+            font-size: 14px;
+            padding: 0;
+        }
+    }
+}
+.btn-search-head {
+    @media (max-width: 767px) {
+        text-align: center;
+        margin-top: 32px;
+    }
 }

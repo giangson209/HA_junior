@@ -105,7 +105,7 @@
 			</div>
 			<div class="list-other-sche">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6">
 						<div class="item-other-sche">
 							<div class="avarta"><a href=""><img src="images/lich-2.png" class="img-fluid w-100" alt=""></a></div>
 							<div class="info">
@@ -114,7 +114,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6">
 						<div class="item-other-sche">
 							<div class="avarta"><a href=""><img src="images/lich-3.png" class="img-fluid w-100" alt=""></a></div>
 							<div class="info">
@@ -123,7 +123,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6">
 						<div class="item-other-sche">
 							<div class="avarta"><a href=""><img src="images/lich-2.png" class="img-fluid w-100" alt=""></a></div>
 							<div class="info">

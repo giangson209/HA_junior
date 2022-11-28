@@ -53,7 +53,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="right">
+					<div class="right right-detail">
 						<div class="new-sidebar">
 							<div class="title-bar">Tin tức mới nhất</div>
 							<div class="list-newbar">
@@ -153,7 +153,7 @@
 			</div>
 			<div class="list-other-sche">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6 col-sm-6">
 						<div class="item-book">
 							<div class="avarta"><a href="" tabindex="0"><img src="images/bq-1.png" class="img-fluid w-100" alt=""></a></div>
 							<div class="info">
@@ -162,7 +162,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6 col-sm-6">
 						<div class="item-book">
 							<div class="avarta"><a href="" tabindex="0"><img src="images/bq-3.png" class="img-fluid w-100" alt=""></a></div>
 							<div class="info">
@@ -171,7 +171,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6 col-sm-6">
 						<div class="item-book">
 							<div class="avarta"><a href="" tabindex="0"><img src="images/bq-2.png" class="img-fluid w-100" alt=""></a></div>
 							<div class="info">

@@ -92,7 +92,7 @@
 	    font-weight: 600;
 	    color: #fff;
 	    background: $red;
-	    @media (max-width: 767px) {
+	    @media (max-width: 1023px) {
 	    	height: 40px;
 	    	font-size: 16px;
 	    }
@@ -334,6 +334,9 @@
     border-radius: 24px;
     color: #4F4F4F;
     font-size: 18px;
+    @media (max-width: 1200px) {
+    	font-size: 14px;
+    }
 	.avarta {
 		position: relative;
 		margin-bottom: 24px;
@@ -359,6 +362,9 @@
 		    font-size: 24px;
 		    font-weight: 600;
 		    font-family: 'Montserrat';
+		    @media (max-width: 1200px) {
+		    	font-size: 20px;
+		    }
 		}
 	}
 }
@@ -1277,6 +1283,9 @@
 	padding: 80px 0 95px 0;
 	background: url('../images/bread.png') no-repeat center;
 	background-size: cover;
+	@media (max-width: 1023px) {
+		padding: 53px 0;
+	}
 }
 .cap-bread {
 	h2 {
@@ -1284,6 +1293,12 @@
 	    font-weight: 700;
 	    color: #252222;
 	    margin-bottom: 6px;
+	    @media (max-width: 1200px) {
+	    	font-size: 40px;
+	    }
+	    @media (max-width: 1023px) {
+	    	font-size: 32px;
+	    }
 	}
 	ul {
 		list-style: none;
@@ -1317,8 +1332,17 @@
     margin-bottom: 64px;
     font-weight: 400;
     color: #4F4F4F;
+    @media (max-width: 1023px) {
+    	padding: 64px 0 48px 0;
+    	margin-bottom: 48px;
+    }
+    @media (max-width: 767px) {
+    	padding: 48px 0 24px 0;
+    	font-size: 14px;
+    	margin-bottom: 24px;
+    }
     .row {
-    	margin: 0 20px;
+    	margin: 0 -20px;
     	>div {
     		padding: 0 20px;
     	}
@@ -1335,10 +1359,32 @@
 		    font-family: 'Montserrat';
 		    padding: 16px 0;
 		    letter-spacing: -1px;
+		    @media (max-width: 1023px) {
+		    	letter-spacing: 0;
+		    	font-size: 24px;
+		    }
+		    @media (max-width: 767px) {
+		    	font-size: 20px;
+		    	padding: 12px 0 8px 0;
+		    }
     	}
     }
     .desc {
     	margin-bottom: 48px;
+    	@media (max-width: 1023px) {
+    		margin-bottom: 32px;
+    	}
+    	@media (max-width: 767px) {
+    		margin-bottom: 24px;
+    	}
+    }
+    .info {
+    	@media (max-width: 1023px) {
+    		margin-top: 40px;
+    	}
+    	@media (max-width: 767px) {
+    		margin-top: 24px;
+    	}
     }
 }
 .view-detail-big {
@@ -1351,6 +1397,11 @@
 	    border-radius: 67px;
 	    padding: 0 24px;
 	    height: 54px;
+	    @media (max-width: 767px) {
+	    	font-size: 16px;
+		    height: 40px;
+		    padding: 0 20px;
+	    }
 	    img {
 	    	margin-left: 16px;
 		    position: relative;
@@ -1363,15 +1414,49 @@
     font-size: 14px;
     position: sticky;
     top: 20px;
+    @media (max-width: 1023px) {
+    	top: 0;
+    	margin-bottom: 60px;
+    }
+    @media (max-width: 767px) {
+    	margin-bottom: 32px;
+    }
     .time {
     	color: #252222;
 	    font-size: 40px;
 	    font-weight: 700;
 	    margin-bottom: 16px;
+	    @media (max-width: 1023px) {
+	    	font-size: 32px;
+	    }
+	    @media (max-width: 767px) {
+	    	font-size: 24px;
+	    	margin-bottom: 10px;
+	    }
     }
 }
 .item-date-schedule {
 	margin-bottom: 64px;
+	@media (max-width: 1023px) {
+		margin-bottom: 48px;
+	}
+	@media (max-width: 767px) {
+		margin-bottom: 40px;
+	}
+	.col-md-3, .col-md-9 {
+		@media (max-width: 1023px) {
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
+	}
+	&:last-child {
+		@media (max-width: 767px) {
+			margin-bottom: 0;
+			.item-schedule {
+				border-bottom: 0px solid #E5E5E5;
+			}
+		}
+	}
 }
 .item-schedule {
 	display: flex;
@@ -1381,12 +1466,40 @@
     margin-bottom: 40px;
     padding-bottom: 40px;
     border-bottom: 1px solid #E5E5E5;
+    @media (max-width: 767px) {
+    	display: block;
+    	font-size: 14px;
+    	font-weight: normal;
+    }
     &:last-child {
     	margin-bottom: 0;
+    }
+    .info {
+    	@media (max-width: 1200px) {
+    		flex: 0 0 50%;
+    		padding-right: 20px;
+    	}
+    	@media (max-width: 1023px) {
+    		padding-right: 16px;
+    	}
+    	@media (max-width: 767px) {
+    		padding: 0 0 24px 0;
+    	}
     }
     .avarta {
     	flex: 0 0 380px;
     	margin-left: 64px;
+    	@media (max-width: 1200px) {
+    		margin: 0;
+		    padding-left: 20px;
+		    flex: 0 0 50%;
+    	}
+    	@media (max-width: 1023px) {
+    		padding-left: 16px;
+    	}
+    	@media (max-width: 767px) {
+    		padding: 0;
+    	}
     }
     h3 {
     	a {
@@ -1398,6 +1511,14 @@
     }
     .desc {
     	padding: 8px 0 24px 0;
+    	@media (max-width: 767px) {
+    		padding: 8px 0 0 0;
+    	}
+    }
+    .view-detail {
+    	@media (max-width: 767px) {
+    		display: none;
+    	}
     }
 }
 
@@ -1445,18 +1566,45 @@
 }
 .box-schedule {
 	padding: 0 0 156px 0;
+	@media (max-width: 1023px) {
+		padding: 0 0 64px 0;
+	}
 }
 
 .detail-schedule {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0 0 156px 0;
+	@media (max-width: 1023px) {
+		padding: 0 0 128px 0;
+	}
+	@media (max-width: 767px) {
+		padding: 0 0 80px 0;
+	}
 	.left {
 		flex: 0 0 calc(100% - 396px);
+		max-width: calc(100% - 396px);
+		@media (max-width: 1023px) {
+			max-width: 100%;
+			flex: 0 0 100%;
+		}
 	}
 	.right {
 		flex: 0 0 340px;
     	margin-left: 56px;
+    	@media (max-width: 1300px) {
+    		margin-left: 46px;
+    	}
+    	@media (max-width: 1023px) {
+			max-width: 100%;
+			flex: 0 0 100%;
+			margin: 48px 0 0 0;
+		}
+		&.right-detail {
+			@media (max-width: 1023px) {
+				display: none;
+			}
+		}
 	}
 }
 .box-form-sidebar {
@@ -1468,6 +1616,14 @@
     	font-size: 20px;
 	    font-weight: 600;
 	    margin-bottom: 24px;
+	    @media (max-width: 1023px) {
+	    	font-size: 32px;
+		    text-align: center;
+		    color: #222222;
+	    }
+	    @media (max-width: 767px) {
+	    	font-size: 20px;
+	    }
     }
     .item-frm {
     	margin-bottom: 24px;
@@ -1525,6 +1681,21 @@
 .box-schedule-detail {
 	.avr-banner {
 		margin-bottom: 56px;
+		@media (max-width: 1023px) {
+			margin-bottom: 48px;
+		}
+		@media (max-width: 767px) {
+			margin-bottom: 40px;
+		}
+		img {
+			@media (max-width: 1023px) {
+				height: 274px;
+				object-fit: cover;
+			}
+			@media (max-width: 767px) {
+				height: 164px;
+			}
+		}
 	}
 }
 .bread-detail {
@@ -1558,6 +1729,14 @@
 	margin-top: 32px;
 	font-size: 18px;
     font-weight: 300;
+    @media (max-width: 1023px) {
+    	font-size: 16px;
+    	font-weight: normal;
+    }
+    @media (max-width: 767px) {
+    	margin-top: 24px;
+    	font-size: 14px;
+    }
 	.detail-head {
 		margin-bottom: 56px;
 		h1 {
@@ -1565,10 +1744,20 @@
 		    font-weight: 700;
 		    margin-bottom: 24px;
 		    color: #212121;
+		    @media (max-width: 1023px) {
+		    	font-size: 40px;
+		    }
+		    @media (max-width: 767px) {
+		    	font-size: 24px;
+		    }
 		}
 		.date {
 			font-weight: 600;
 			color: #4F4F4F;
+			@media (max-width: 767px) {
+				font-size: 14px;
+				font-weight: 500;
+			}
 			span {
 				color: #409A61;
 			}
@@ -1585,6 +1774,10 @@
 		margin-bottom: 20px;
 		color: #212121;
 	}
+	img {
+		max-width: 100%;
+		height: auto;
+	}
 }
 .bott-author-detail {
 	color: #4F4F4F;
@@ -1593,6 +1786,11 @@
     align-items: center;
     padding: 56px 0;
     border-bottom: 1px solid #E5E5E5;
+    @media (max-width: 767px) {
+    	padding: 32px 0 56px 0;
+    	display: block;
+    	font-size: 16px;
+    }
 	ul {
 		list-style: none;
 	}
@@ -1600,9 +1798,13 @@
 		font-size: 20px;
 	    padding-left: 24px;
 	    border-left: 3px solid $red;
+	    @media (max-width: 767px) {
+	    	font-size: 16px;
+	    	padding-left: 16px;
+	    	margin-bottom: 24px;
+	    }
 		span {
 			font-family: 'Montserrat';
-			font-size: 20px;
 			font-weight: 600;
 		}
 	}
@@ -1610,9 +1812,12 @@
 		font-size: 16px;
 	    font-weight: 600;
 	    text-align: right;
+	    @media (max-width: 767px){
+	    	text-align: left;
+	    }
 	    ul {
 	    	margin-top: 8px;
-	    	display: flex;
+	    	display: flex; 
 	    	li {
 	    		margin-right: 24px;
 	    		&:last-child {
@@ -1637,24 +1842,58 @@
 }
 .box-other-schedule {
 	padding: 0 0 156px 0;
+	@media (max-width: 1023px) {
+		padding: 0 0 64px 0;
+	}
+	@media (max-width: 767px) {
+		padding: 0 0 40px 0;
+	}
 	.btn-main {
 		margin-top: 64px;
+		@media (max-width: 1023px) {
+			margin-top: 24px;
+		}
 	}
 }
 
 .box-course-cate {
 	padding: 156px 0;
+	@media (max-width: 1023px) {
+		padding: 64px 0;
+	}
+	@media (max-width: 767px) {
+		padding: 48px 0;
+	}
+	.col-lg-4 {
+		@media (max-width: 1023px) {
+			display: none;
+		}
+	}
 }
 .content-cate-course {
 	.col-md-6 {
 		margin-top: 40px;
+		@media (max-width: 767px){
+			margin-top: 24px;
+		}
 		&:first-child, &:nth-child(2) {
 			margin-top: 0;
+		}
+		&:nth-child(2) {
+			@media (max-width: 767px){
+				margin-top: 24px;
+			}
 		}
 	}
 }
 .course-box {
 	margin-bottom: 156px;
+	@media (max-width: 1023px) {
+		margin-bottom: 48px;
+	}
+	@media (max-width: 767px) {
+		margin-bottom: 32px;
+	}
 	&:last-child {
 		margin-bottom: 0;
 	}
@@ -1663,7 +1902,13 @@
 	    font-weight: 600;
 	    margin-bottom: 48px;
 	    position: relative;
+	    color: #222222;
 	    font-family: 'Montserrat';
+	    @media(max-width: 767px) {
+	    	font-size: 24px;
+	    	line-height: initial;
+	    	margin-bottom: 32px;
+	    }
 	    &:After {
 	    	content: "";
 		    height: 9px;
@@ -1672,7 +1917,21 @@
 		    position: absolute;
 		    left: 0;
 		    bottom: -9px;
+		    @media (max-width: 767px) {
+		    	height: 5px;
+		    	width: 40px;
+		    }
 	    }
+	}
+	.row {
+		@media (max-width: 1023px) {
+			margin: 0 -12px;
+		}
+		.col-md-6 {
+			@media (max-width: 1023px) {
+				padding: 0 12px;
+			}
+		}
 	}
 }
 
@@ -1691,9 +1950,15 @@
     			font-size: 24px;
     			background: transparent;
     			border-left: 3px solid transparent;
+    			@media (max-width: 1200px) {
+    				font-size: 16px;
+    				padding: 16px 20px;
+    			}
     			&.active {
     				border-left: 3px solid $red;
     				background: #FFF8F8;
+    				color: #222222;
+    				font-weight: 600;
     			} 
     		}
     	}
@@ -1703,22 +1968,44 @@
 .bread-course {
 	padding: 80px 0;
 	color: #757575;
+	@media (max-width: 1023px) {
+		padding: 56px 0;
+	}
+	@media (max-width: 767px) {
+		padding: 48px 0;
+	}
 	h1 {
 		color: $red;
 	    font-size: 48px;
 	    font-weight: 700;
 	    padding: 26px 0 0 0;
 	    font-family: 'Montserrat';
+	    @media (max-width: 1023px) {
+	    	font-size: 40px;
+	    }
+	    @media (max-width: 767px) {
+	    	font-size: 24px;
+	    }
 	}
 	p {
 		font-size: 24px;
 	    font-weight: 600;
 	    font-family: 'Montserrat';
 	    padding-bottom: 24px;
+	    @media (max-width: 1023px) {
+	    	font-size: 20px;
+	    }
+	    @media (max-width: 767px) {
+	    	font-size: 16px;
+    		padding-top: 4px; 
+	    }
 	}
 	.date {
 		color: #4F4F4F;
     	font-weight: 600;
+    	@media (max-width: 767px) {
+    		font-size: 14px;
+    	}
     	span {
     		color: #409A61;
     	}
@@ -1730,22 +2017,62 @@
 	display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    @media (max-width: 1023px) {
+    	padding: 48px 0;
+    }
+    @media (max-width: 767px) {
+    	padding: 24px 0 48px 0;
+    }
     .left {
     	flex: 0 0 calc(100% - 500px);
     	max-width: 667px;
+    	@media (max-width: 1200px) {
+    		flex: 0 0 calc(100% - 452px);
+    		max-width: 100%;
+    	}
+    	@media (max-width: 1023px) {
+    		flex: 0 0 100%;
+    	}
     }
     .right {
     	flex: 0 0 412px;
     	margin-left: 88px;
+    	@media (max-width: 1200px) {
+    		margin-left: 40px;
+    	}
+    	@media (max-width: 1023px) {
+    		display: none;
+    	}
     }
 }
 .tab-detail-course {
 	margin-bottom: 56px;
+	@media (max-width: 1023px) {
+		margin-bottom: 32px;
+		overflow: auto;
+		&::-webkit-scrollbar-track {
+			background-color: transparent;
+		}
+		&::-webkit-scrollbar {
+			width: 0;
+			background-color: transparent;
+		}
+		&::-webkit-scrollbar-thumb {
+			border-radius: 0;
+			background-color: transparent;
+		}
+	}
+	@media (max-width: 767px) {
+		margin-bottom: 0;
+	}
 	ul {
 		list-style: none;
 	    font-size: 24px;
 	    display: flex;
 	    align-items: center;
+	    @media (max-width: 1023px) {
+	    	width: max-content;
+	    }
 	    li {
 	    	a {
 	    		display: block;
@@ -1754,6 +2081,10 @@
 	    		font-weight: 500;
 	    		background: transparent;
 	    		border-bottom: 3px solid transparent;
+	    		@media (max-width: 1400px) {
+	    			padding: 10px 16px;
+    				font-size: 20px;
+	    		}
 	    		&.active {
 	    			font-weight: 600;  
 	    			color: #252222;
@@ -1776,15 +2107,28 @@
 .content-detail-cour {
 	font-size: 18px;
 	font-weight: 300;
+	@media (max-width: 1023px) {
+		font-size: 16px;
+	}
+	@media (max-width: 767px) {
+		font-size: 14px;
+		font-weight: normal;
+	}
 	.detail {
 		h2, h3, h4, h5, h6 {
 			padding: 36px 0 16px 0;
 			color: #252222;
 			font-weight: 600;
 	    	font-family: 'Montserrat';
+	    	@media (max-width: 1023px) {
+	    		padding: 24px 0 12px 0;
+	    	}
 		}
 		h3 {
 			font-size: 24px;
+			@media (max-width: 1023px) {
+				font-size: 20px;
+			}
 		}
 		p {
 			margin-bottom: 15px;
@@ -1849,16 +2193,34 @@
     margin-top: 56px;
     padding: 32px;
     color: #252222;
+    @media (max-width: 767px) {
+    	padding: 24px;
+    }
     .icon-abs {
     	position: absolute;
 	    top: -34px;
 	    left: 6%;
+	    @media (max-width: 767px) {
+	    	top: -24px;
+	    }
+	    img {
+	    	@media (max-width: 767px) {
+	    		width: 48px;
+	    		height: 48px;
+	    	}
+	    }
     }
     .title {
     	margin-bottom: 48px;
+    	@media (max-width: 767px) {
+    		margin-bottom: 30px;
+    	}
     	h2 {
     		font-size: 32px;
     		font-weight: 600;
+    		@media (max-width: 767px) {
+    			font-size: 24px;
+    		}
     	}
     }
 }
@@ -1904,6 +2266,11 @@
 	    padding: 0 20px 1px 52px;
 	    font-size: 20px;
 	    font-family: 'Montserrat';
+	    @media (max-width: 767px) {
+	    	height: 48px;
+		    font-size: 16px;
+		    padding-bottom: 0;
+	    }
 	}
 	.btn-form {
 		position: relative;
@@ -1917,6 +2284,9 @@
 		    position: absolute;
 		    top: 15px;
 		    left: 18px;
+		    @media (max-width: 767px) {
+		    	top: 13px;
+		    }
 		}
 	}
 }
@@ -1925,6 +2295,12 @@
 	background: #E7EBF6;
     padding: 24px;
     margin-top: 56px;
+    @media (max-width: 1023px) {
+    	margin-top: 32px;
+    }
+    @media (max-width: 767px) {
+    	padding: 16px;
+    }
     p {
     	display: flex;
     	align-items: flex-start;
@@ -1939,5 +2315,24 @@
 	display: none;
 	&.active {
 		display: block;
+	}
+}
+
+.list-other-sche {
+	.row {
+		@media (max-width: 1023px) {
+			margin: 0 -12px;
+		}
+		.col-lg-4 {
+			@media (max-width: 1023px) {
+				padding: 0 12px;
+				margin-bottom: 40px;
+			}
+			&:last-child {
+				@media (max-width: 767px) {
+					margin-bottom: 0;
+				}
+			}
+		}
 	}
 }

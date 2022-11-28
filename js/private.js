@@ -220,6 +220,11 @@ $(document).ready(function(){
 		$('html, .nav-menu').removeClass('open_menu');
 	});
 
+	$('.nav-menu .top-menu ul li a').click(function(event) {
+		$(this).toggleClass('active');
+		$(this).next().slideToggle(300);
+	});
+
 	$('.sidebar-course a').click(function(e){
 	  e.preventDefault();
 	  var target = $($(this).attr('href'));

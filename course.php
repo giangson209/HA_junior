@@ -14,7 +14,7 @@
 	<section class="box-course-cate">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-lg-4">
 					<div class="sidebar-course">
 						<ul>
 							<li><a href="#scroll-1" class="active">Tiếng Anh Mầm non</a></li>
@@ -23,7 +23,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-8">
+				<div class="col-lg-8">
 					<div class="content-cate-course">
 						<div class="course-box" id="scroll-1">
 							<div class="title-course">Khóa Tiếng Anh Mầm non</div>
