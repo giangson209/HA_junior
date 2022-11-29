@@ -422,36 +422,36 @@
 					<div class="slide-book"> 
 						<div class="item-slide">
 							<div class="item-book">
-								<div class="avarta"><a href=""><img src="images/book-1.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="avarta"><a href="tusach-detail.php"><img src="images/book-1.png" class="img-fluid w-100" alt=""></a></div>
 								<div class="info">
-									<h3><a href="">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+									<h3><a href="tusach-detail.php">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
 									<p><span>Tủ sách cho trẻ</span><label>3 giờ trước</label></p>
 								</div>
 							</div>
 						</div>
 						<div class="item-slide">
 							<div class="item-book">
-								<div class="avarta"><a href=""><img src="images/book-2.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="avarta"><a href="tusach-detail.php"><img src="images/book-2.png" class="img-fluid w-100" alt=""></a></div>
 								<div class="info">
-									<h3><a href="">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+									<h3><a href="tusach-detail.php">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
 									<p><span>Tủ sách cho trẻ</span><label>3 giờ trước</label></p>
 								</div>
 							</div>
 						</div>
 						<div class="item-slide">
 							<div class="item-book">
-								<div class="avarta"><a href=""><img src="images/book-3.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="avarta"><a href="tusach-detail.php"><img src="images/book-3.png" class="img-fluid w-100" alt=""></a></div>
 								<div class="info">
-									<h3><a href="">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+									<h3><a href="tusach-detail.php">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
 									<p><span>Tủ sách cho trẻ</span><label>3 giờ trước</label></p>
 								</div>
 							</div>
 						</div>
 						<div class="item-slide">
 							<div class="item-book">
-								<div class="avarta"><a href=""><img src="images/book-2.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="avarta"><a href="tusach-detail.php"><img src="images/book-2.png" class="img-fluid w-100" alt=""></a></div>
 								<div class="info">
-									<h3><a href="">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+									<h3><a href="tusach-detail.php">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
 									<p><span>Tủ sách cho trẻ</span><label>3 giờ trước</label></p>
 								</div>
 							</div>
@@ -462,36 +462,36 @@
 					<div class="slide-book"> 
 						<div class="item-slide">
 							<div class="item-book">
-								<div class="avarta"><a href=""><img src="images/book-2.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="avarta"><a href="tusach-detail.php"><img src="images/book-2.png" class="img-fluid w-100" alt=""></a></div>
 								<div class="info">
-									<h3><a href="">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+									<h3><a href="tusach-detail.php">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
 									<p><span>Tủ sách cho trẻ</span><label>3 giờ trước</label></p>
 								</div>
 							</div>
 						</div>
 						<div class="item-slide">
 							<div class="item-book">
-								<div class="avarta"><a href=""><img src="images/book-3.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="avarta"><a href="tusach-detail.php"><img src="images/book-3.png" class="img-fluid w-100" alt=""></a></div>
 								<div class="info">
-									<h3><a href="">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+									<h3><a href="tusach-detail.php">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
 									<p><span>Tủ sách cho trẻ</span><label>3 giờ trước</label></p>
 								</div>
 							</div>
 						</div>
 						<div class="item-slide">
 							<div class="item-book">
-								<div class="avarta"><a href=""><img src="images/book-1.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="avarta"><a href="tusach-detail.php"><img src="images/book-1.png" class="img-fluid w-100" alt=""></a></div>
 								<div class="info">
-									<h3><a href="">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+									<h3><a href="tusach-detail.php">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
 									<p><span>Tủ sách cho trẻ</span><label>3 giờ trước</label></p>
 								</div>
 							</div>
 						</div>
 						<div class="item-slide">
 							<div class="item-book">
-								<div class="avarta"><a href=""><img src="images/book-2.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="avarta"><a href="tusach-detail.php"><img src="images/book-2.png" class="img-fluid w-100" alt=""></a></div>
 								<div class="info">
-									<h3><a href="">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+									<h3><a href="tusach-detail.php">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
 									<p><span>Tủ sách cho trẻ</span><label>3 giờ trước</label></p>
 								</div>
 							</div>
@@ -499,7 +499,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="btn-main text-center"><a href=""><span>Xem tất cả</span><img src="images/arrow-right.svg" class="img-fluid" alt=""></a></div>
+			<div class="btn-main text-center"><a href="tusach.php"><span>Xem tất cả</span><img src="images/arrow-right.svg" class="img-fluid" alt=""></a></div>
 		</div>
 	</section>
 	<section class="box-feedback">
@@ -569,9 +569,9 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="item-book">
-							<div class="avarta"><a href="" tabindex="0"><img src="images/book-1.png" class="img-fluid w-100" alt=""></a></div>
+							<div class="avarta"><a href="detail.php" tabindex="0"><img src="images/book-1.png" class="img-fluid w-100" alt=""></a></div>
 							<div class="info">
-								<h3><a href="" tabindex="0">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+								<h3><a href="detail.php" tabindex="0">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
 								<div class="desc">
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.
 								</div>
@@ -581,9 +581,9 @@
 					</div>
 					<div class="col-md-4">
 						<div class="item-book">
-							<div class="avarta"><a href="" tabindex="0"><img src="images/book-2.png" class="img-fluid w-100" alt=""></a></div>
+							<div class="avarta"><a href="detail.php" tabindex="0"><img src="images/book-2.png" class="img-fluid w-100" alt=""></a></div>
 							<div class="info">
-								<h3><a href="" tabindex="0">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+								<h3><a href="detail.php" tabindex="0">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
 								<div class="desc">
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.
 								</div>
@@ -593,9 +593,9 @@
 					</div>
 					<div class="col-md-4">
 						<div class="item-book">
-							<div class="avarta"><a href="" tabindex="0"><img src="images/book-1.png" class="img-fluid w-100" alt=""></a></div>
+							<div class="avarta"><a href="detail.php" tabindex="0"><img src="images/book-1.png" class="img-fluid w-100" alt=""></a></div>
 							<div class="info">
-								<h3><a href="" tabindex="0">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
+								<h3><a href="detail.php" tabindex="0">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></h3>
 								<div class="desc">
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.
 								</div>
@@ -606,7 +606,7 @@
 				</div>
 			</div>
 			<div class="btn-main text-center">
-				<a href=""><span>Xem tất cả</span><img src="images/arrow-right.svg" class="img-fluid" alt=""></a>
+				<a href="news.php"><span>Xem tất cả</span><img src="images/arrow-right.svg" class="img-fluid" alt=""></a>
 			</div>
 		</div>
 	</section>

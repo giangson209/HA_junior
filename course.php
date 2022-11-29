@@ -30,27 +30,27 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="item-course">
-										<div class="avarta"><a href=""><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
+										<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
 										<div class="info">
-											<h3><a href="">Khóa Kiddie A</a></h3>
+											<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
 											<p>Cho trẻ từ 4-5 tuổi</p>
 										</div>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="item-course">
-										<div class="avarta"><a href=""><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
+										<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
 										<div class="info">
-											<h3><a href="">Khóa Kiddie A</a></h3>
+											<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
 											<p>Cho trẻ từ 4-5 tuổi</p>
 										</div>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="item-course">
-										<div class="avarta"><a href=""><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
+										<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
 										<div class="info">
-											<h3><a href="">Khóa Kiddie A</a></h3>
+											<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
 											<p>Cho trẻ từ 4-5 tuổi</p>
 										</div>
 									</div>
@@ -62,27 +62,27 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="item-course">
-										<div class="avarta"><a href=""><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
+										<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
 										<div class="info">
-											<h3><a href="">Khóa Kiddie A</a></h3>
+											<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
 											<p>Cho trẻ từ 4-5 tuổi</p>
 										</div>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="item-course">
-										<div class="avarta"><a href=""><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
+										<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
 										<div class="info">
-											<h3><a href="">Khóa Kiddie A</a></h3>
+											<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
 											<p>Cho trẻ từ 4-5 tuổi</p>
 										</div>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="item-course">
-										<div class="avarta"><a href=""><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
+										<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
 										<div class="info">
-											<h3><a href="">Khóa Kiddie A</a></h3>
+											<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
 											<p>Cho trẻ từ 4-5 tuổi</p>
 										</div>
 									</div>
@@ -94,27 +94,27 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="item-course">
-										<div class="avarta"><a href=""><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
+										<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
 										<div class="info">
-											<h3><a href="">Khóa Kiddie A</a></h3>
+											<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
 											<p>Cho trẻ từ 4-5 tuổi</p>
 										</div>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="item-course">
-										<div class="avarta"><a href=""><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
+										<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
 										<div class="info">
-											<h3><a href="">Khóa Kiddie A</a></h3>
+											<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
 											<p>Cho trẻ từ 4-5 tuổi</p>
 										</div>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="item-course">
-										<div class="avarta"><a href=""><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
+										<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
 										<div class="info">
-											<h3><a href="">Khóa Kiddie A</a></h3>
+											<h3><a href="course-detail.php">Khóa Kiddie A</a></h3>
 											<p>Cho trẻ từ 4-5 tuổi</p>
 										</div>
 									</div>

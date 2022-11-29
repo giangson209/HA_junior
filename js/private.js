@@ -212,6 +212,16 @@ $(document).ready(function(){
 		$("#"+tab_id).addClass('active');
 	})
 
+	$('.tab-about a').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('.tab-about a').removeClass('active'); 
+		$('.content-about').removeClass('active');
+
+		$(this).addClass('active');
+		$("#"+tab_id).addClass('active');
+	})
+
 	$('.btn-bar a').click(function(event) {
 		$('html, .nav-menu').addClass('open_menu');
 	});
