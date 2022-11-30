@@ -581,7 +581,7 @@ header .container {
   margin-right: 0;
 }
 .menu-right ul li a {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   height: 40px;
   border-radius: 48px;
@@ -839,7 +839,7 @@ header .container {
   }
 }
 .btn-main a:hover {
-  letter-spacing: 1px;
+  box-shadow: 3px 3px 0px #232323;
 }
 .btn-main a img {
   margin-left: 16px;
@@ -847,12 +847,6 @@ header .container {
 
 .box-banner {
   position: relative;
-  z-index: 3;
-}
-@media (max-width: 767px) {
-  .box-banner {
-    z-index: 1;
-  }
 }
 .box-banner .slick-dots {
   bottom: 70px;
@@ -992,6 +986,7 @@ header .container {
 .item-loiich .t-loiich h4 {
   font-weight: 500;
   font-size: 24px;
+  color: #252222;
 }
 @media (max-width: 767px) {
   .item-loiich .t-loiich h4 {
@@ -1349,6 +1344,13 @@ header .container {
     font-size: 16px;
     height: 40px;
   }
+}
+
+.btn_field {
+  cursor: pointer;
+}
+.btn_field:hover {
+  box-shadow: 3px 3px 0px #232323;
 }
 
 .box-Achievements {
@@ -2365,6 +2367,11 @@ header .container {
 }
 .shedule-hot .desc {
   margin-bottom: 48px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 @media (max-width: 1023px) {
   .shedule-hot .desc {
@@ -2396,6 +2403,7 @@ header .container {
   border-radius: 67px;
   padding: 0 24px;
   height: 54px;
+  color: #252222;
 }
 @media (max-width: 767px) {
   .view-detail-big a {
@@ -2404,10 +2412,18 @@ header .container {
     padding: 0 20px;
   }
 }
-.view-detail-big a img {
+.view-detail-big a img, .view-detail-big a svg {
   margin-left: 16px;
   position: relative;
   top: 1px;
+}
+.view-detail-big a:hover {
+  color: #fff;
+  background: #E71E25;
+  box-shadow: 3px 3px 0px #232323;
+}
+.view-detail-big a:hover path {
+  stroke: #fff;
 }
 
 .date-schedule {
@@ -2536,11 +2552,16 @@ header .container {
   font-family: "Montserrat";
 }
 .item-schedule .desc {
-  padding: 8px 0 24px 0;
+  margin: 8px 0 24px 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 @media (max-width: 767px) {
   .item-schedule .desc {
-    padding: 8px 0 0 0;
+    margin: 8px 0 0 0;
   }
 }
 @media (max-width: 767px) {
@@ -2559,10 +2580,18 @@ header .container {
   border: 2px solid #252222;
   border-radius: 67px;
 }
-.view-detail a img {
+.view-detail a img, .view-detail a svg {
   margin-left: 10px;
   position: relative;
   top: 1px;
+}
+.view-detail a:hover {
+  color: #fff;
+  background: #E71E25;
+  box-shadow: 3px 3px 0px #232323;
+}
+.view-detail a:hover path {
+  stroke: #fff;
 }
 
 .pagination ul {
@@ -3218,7 +3247,6 @@ header .container {
 
 .content-detail-cour {
   font-size: 18px;
-  font-weight: 300;
 }
 @media (max-width: 1023px) {
   .content-detail-cour {
@@ -3228,7 +3256,6 @@ header .container {
 @media (max-width: 767px) {
   .content-detail-cour {
     font-size: 14px;
-    font-weight: normal;
   }
 }
 .content-detail-cour .detail h2, .content-detail-cour .detail h3, .content-detail-cour .detail h4, .content-detail-cour .detail h5, .content-detail-cour .detail h6 {
@@ -3462,6 +3489,43 @@ header .container {
 }
 @media (max-width: 767px) {
   .list-other-sche .row .col-lg-4:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.box-other-course {
+  padding: 156px 0;
+}
+@media (max-width: 1023px) {
+  .box-other-course {
+    padding: 64px 0;
+  }
+}
+@media (max-width: 767px) {
+  .box-other-course {
+    padding: 40px 0;
+  }
+}
+.box-other-course .btn-main {
+  margin-top: 64px;
+}
+@media (max-width: 1023px) {
+  .box-other-course .btn-main {
+    margin-top: 48px;
+  }
+}
+@media (max-width: 767px) {
+  .box-other-course .btn-main {
+    margin-top: 32px;
+  }
+}
+@media (max-width: 1023px) {
+  .box-other-course .col-lg-4 {
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .box-other-course .col-lg-4:last-child {
     margin-bottom: 0;
   }
 }

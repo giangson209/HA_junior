@@ -23,7 +23,12 @@
 							<div class="time">Cập nhật 3 giờ trước</div>
 							<h2><a href="">Khai giảng khóa Kiddie A tháng 11 cơ sở Hà Nội</a></h2>
 							<div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque.</div>
-							<div class="view-detail-big"><a href="schedule-detail.php">Chi tiết<img src="images/arrow-right-dark.svg" class="img-fluid" alt=""></a></div>
+							<div class="view-detail-big"><a href="schedule-detail.php">
+								Chi tiết
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M14.43 5.92969L20.5 11.9997L14.43 18.0697M3.5 11.9997H20.33" stroke="#252222" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+							</a></div>
 						</div>
 					</div>
 				</div>
@@ -42,7 +47,12 @@
 								<div class="info">
 									<h3><a href="schedule-detail.php">Khai giảng khóa Kiddie A tháng 11 cơ sở Hà Nội</a></h3>
 									<div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.</div>
-									<div class="view-detail"><a href="schedule-detail.php">Chi tiết<img src="images/arrow-right-dark.svg" class="img-fluid" alt=""></a></div>
+									<div class="view-detail"><a href="schedule-detail.php">
+										Chi tiết
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M14.43 5.93018L20.5 12.0002L14.43 18.0702M3.5 12.0002H20.33" stroke="#252222" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+									</a></div>
 								</div>
 								<div class="avarta"><a href="schedule-detail.php"><img src="images/lich-2.png" class="img-fluid w-100" alt=""></a></div>
 							</div>
@@ -50,7 +60,12 @@
 								<div class="info">
 									<h3><a href="schedule-detail.php">Khai giảng khóa Kiddie A tháng 11 cơ sở Hà Nội</a></h3>
 									<div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.</div>
-									<div class="view-detail"><a href="schedule-detail.php">Chi tiết<img src="images/arrow-right-dark.svg" class="img-fluid" alt=""></a></div>
+									<div class="view-detail"><a href="schedule-detail.php">
+										Chi tiết
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M14.43 5.93018L20.5 12.0002L14.43 18.0702M3.5 12.0002H20.33" stroke="#252222" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+									</a></div>
 								</div>
 								<div class="avarta"><a href="schedule-detail.php"><img src="images/lich-3.png" class="img-fluid w-100" alt=""></a></div>
 							</div>
@@ -70,7 +85,12 @@
 								<div class="info">
 									<h3><a href="schedule-detail.php">Khai giảng khóa Kiddie A tháng 11 cơ sở Hà Nội</a></h3>
 									<div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.</div>
-									<div class="view-detail"><a href="schedule-detail.php">Chi tiết<img src="images/arrow-right-dark.svg" class="img-fluid" alt=""></a></div>
+									<div class="view-detail"><a href="schedule-detail.php">
+										Chi tiết
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M14.43 5.93018L20.5 12.0002L14.43 18.0702M3.5 12.0002H20.33" stroke="#252222" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+									</a></div>
 								</div>
 								<div class="avarta"><a href="schedule-detail.php"><img src="images/lich-2.png" class="img-fluid w-100" alt=""></a></div>
 							</div>
@@ -78,7 +98,12 @@
 								<div class="info">
 									<h3><a href="schedule-detail.php">Khai giảng khóa Kiddie A tháng 11 cơ sở Hà Nội</a></h3>
 									<div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.</div>
-									<div class="view-detail"><a href="schedule-detail.php">Chi tiết<img src="images/arrow-right-dark.svg" class="img-fluid" alt=""></a></div>
+									<div class="view-detail"><a href="schedule-detail.php">
+										Chi tiết
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M14.43 5.93018L20.5 12.0002L14.43 18.0702M3.5 12.0002H20.33" stroke="#252222" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+									</a></div>
 								</div>
 								<div class="avarta"><a href="schedule-detail.php"><img src="images/lich-3.png" class="img-fluid w-100" alt=""></a></div>
 							</div>
@@ -86,7 +111,12 @@
 								<div class="info">
 									<h3><a href="schedule-detail.php">Khai giảng khóa Kiddie A tháng 11 cơ sở Hà Nội</a></h3>
 									<div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.</div>
-									<div class="view-detail"><a href="schedule-detail.php">Chi tiết<img src="images/arrow-right-dark.svg" class="img-fluid" alt=""></a></div>
+									<div class="view-detail"><a href="schedule-detail.php">
+										Chi tiết
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M14.43 5.93018L20.5 12.0002L14.43 18.0702M3.5 12.0002H20.33" stroke="#252222" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+									</a></div>
 								</div>
 								<div class="avarta"><a href="schedule-detail.php"><img src="images/lich-3.png" class="img-fluid w-100" alt=""></a></div>
 							</div>
@@ -106,7 +136,12 @@
 								<div class="info">
 									<h3><a href="schedule-detail.php">Khai giảng khóa Kiddie A tháng 11 cơ sở Hà Nội</a></h3>
 									<div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.</div>
-									<div class="view-detail"><a href="schedule-detail.php">Chi tiết<img src="images/arrow-right-dark.svg" class="img-fluid" alt=""></a></div>
+									<div class="view-detail"><a href="schedule-detail.php">
+										Chi tiết
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M14.43 5.93018L20.5 12.0002L14.43 18.0702M3.5 12.0002H20.33" stroke="#252222" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+									</a></div>
 								</div>
 								<div class="avarta"><a href="schedule-detail.php"><img src="images/lich-2.png" class="img-fluid w-100" alt=""></a></div>
 							</div>
@@ -114,7 +149,12 @@
 								<div class="info">
 									<h3><a href="schedule-detail.php">Khai giảng khóa Kiddie A tháng 11 cơ sở Hà Nội</a></h3>
 									<div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.</div>
-									<div class="view-detail"><a href="schedule-detail.php">Chi tiết<img src="images/arrow-right-dark.svg" class="img-fluid" alt=""></a></div>
+									<div class="view-detail"><a href="schedule-detail.php">
+										Chi tiết
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M14.43 5.93018L20.5 12.0002L14.43 18.0702M3.5 12.0002H20.33" stroke="#252222" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>
+									</a></div>
 								</div>
 								<div class="avarta"><a href="schedule-detail.php"><img src="images/lich-3.png" class="img-fluid w-100" alt=""></a></div>
 							</div>

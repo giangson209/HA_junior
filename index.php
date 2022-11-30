@@ -64,7 +64,7 @@
 					</div>
 				</div>
 			</div>
-		</div> 
+		</div>  
 	</section>
 	<section class="box-course">
 		<div class="container">
@@ -370,23 +370,23 @@
 			<div class="list-number">
 				<div class="row">
 					<div class="col-lg-4">
-						<div class="item-numb text-center">
+						<div class="item-numb text-center" id="counter-box">
 							<div class="icon"><img src="images/star.png" class="img-fluid" alt=""></div>
-							<div class="numb">547<span>+</span></div>
+							<div class="numb"><span class="counter" data-number="547"></span><span>+</span></div>
 							<p>Học viên đang theo học và đã tốt nghiệp</p>
 						</div>
 					</div>
 					<div class="col-lg-4">
-						<div class="item-numb text-center">
+						<div class="item-numb text-center" id="counter-box">
 							<div class="icon"><img src="images/star.png" class="img-fluid" alt=""></div>
-							<div class="numb">10<span>+</span></div>
+							<div class="numb"><span class="counter" data-number="10"></span><span>+</span></div>
 							<p>Khóa học được đầu tư bài bản, kỹ lưỡng</p>
 						</div>
 					</div>
 					<div class="col-lg-4">
-						<div class="item-numb text-center">
+						<div class="item-numb text-center" id="counter-box">
 							<div class="icon"><img src="images/star.png" class="img-fluid" alt=""></div>
-							<div class="numb">30<span>+</span></div>
+							<div class="numb"><span class="counter" data-number="30"></span><span>+</span></div>
 							<p>Giảng viên tâm huyết và giàu kinh nghiệm trong nghề</p>
 						</div>
 					</div>
@@ -505,6 +505,66 @@
 	<section class="box-feedback">
 		<div class="container">
 			<div class="slide-feedback">
+				<div class="item-slide">
+					<div class="item-feedback">
+						<div class="avarta"><img src="images/avr-fb.png" class="img-fluid w-100" alt=""></div>
+						<div class="info">
+							<div class="icon"><img src="images/kep.png" class="img-fluid" alt=""></div>
+							<div class="desc">
+								Em rất sợ tiếng anh, nhưng vì những mục tiêu tương lai, em phải chinh phục được ngôn ngữ này. Và Bluebell là trung tâm em lựa chọn đồng hành trong hành trình gian nan này. Ban đầu em cũng lo lắng, nhưng mọi thứ diễn ra đã thay đổi suy nghĩ của em. Các thầy cô ở đây cực xịn, từ một đứa tiếng anh em dần hứng thú học tiếng Anh. Em luôn ước có thể biết đến Bluebell sớm hớn. 
+							</div>
+							<div class="info">
+								<h5>Ông Trương Quốc Thái</h5>
+								<p>Phụ huynh bạn Lê Mai Anh - Khóa Kiddie A</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item-slide">
+					<div class="item-feedback">
+						<div class="avarta"><img src="images/avr-fb.png" class="img-fluid w-100" alt=""></div>
+						<div class="info">
+							<div class="icon"><img src="images/kep.png" class="img-fluid" alt=""></div>
+							<div class="desc">
+								Em rất sợ tiếng anh, nhưng vì những mục tiêu tương lai, em phải chinh phục được ngôn ngữ này. Và Bluebell là trung tâm em lựa chọn đồng hành trong hành trình gian nan này. Ban đầu em cũng lo lắng, nhưng mọi thứ diễn ra đã thay đổi suy nghĩ của em. Các thầy cô ở đây cực xịn, từ một đứa tiếng anh em dần hứng thú học tiếng Anh. Em luôn ước có thể biết đến Bluebell sớm hớn. 
+							</div>
+							<div class="info">
+								<h5>Ông Trương Quốc Thái</h5>
+								<p>Phụ huynh bạn Lê Mai Anh - Khóa Kiddie A</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item-slide">
+					<div class="item-feedback">
+						<div class="avarta"><img src="images/avr-fb.png" class="img-fluid w-100" alt=""></div>
+						<div class="info">
+							<div class="icon"><img src="images/kep.png" class="img-fluid" alt=""></div>
+							<div class="desc">
+								Em rất sợ tiếng anh, nhưng vì những mục tiêu tương lai, em phải chinh phục được ngôn ngữ này. Và Bluebell là trung tâm em lựa chọn đồng hành trong hành trình gian nan này. Ban đầu em cũng lo lắng, nhưng mọi thứ diễn ra đã thay đổi suy nghĩ của em. Các thầy cô ở đây cực xịn, từ một đứa tiếng anh em dần hứng thú học tiếng Anh. Em luôn ước có thể biết đến Bluebell sớm hớn. 
+							</div>
+							<div class="info">
+								<h5>Ông Trương Quốc Thái</h5>
+								<p>Phụ huynh bạn Lê Mai Anh - Khóa Kiddie A</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item-slide">
+					<div class="item-feedback">
+						<div class="avarta"><img src="images/avr-fb.png" class="img-fluid w-100" alt=""></div>
+						<div class="info">
+							<div class="icon"><img src="images/kep.png" class="img-fluid" alt=""></div>
+							<div class="desc">
+								Em rất sợ tiếng anh, nhưng vì những mục tiêu tương lai, em phải chinh phục được ngôn ngữ này. Và Bluebell là trung tâm em lựa chọn đồng hành trong hành trình gian nan này. Ban đầu em cũng lo lắng, nhưng mọi thứ diễn ra đã thay đổi suy nghĩ của em. Các thầy cô ở đây cực xịn, từ một đứa tiếng anh em dần hứng thú học tiếng Anh. Em luôn ước có thể biết đến Bluebell sớm hớn. 
+							</div>
+							<div class="info">
+								<h5>Ông Trương Quốc Thái</h5>
+								<p>Phụ huynh bạn Lê Mai Anh - Khóa Kiddie A</p>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="item-slide">
 					<div class="item-feedback">
 						<div class="avarta"><img src="images/avr-fb.png" class="img-fluid w-100" alt=""></div>

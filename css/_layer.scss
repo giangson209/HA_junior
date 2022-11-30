@@ -393,10 +393,10 @@ header {
         margin-right: 0;
       }
       a {
-        display: inline-flex;
+        display: flex;
         align-items: center;
         height: 40px;
-        border-radius: 48px;
+        border-radius: 48px; 
         border: 2px solid #252222;
         padding: 0 10px;
         color: #252222;

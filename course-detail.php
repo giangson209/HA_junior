@@ -112,19 +112,19 @@
 						<div class="info">
 							<ul>
 								<li>
-									<div class="span-cour"><img src="images/icon-course-1.png" class="img-fluid" alt="">Thời gian :</div>
+									<div class="span-cour"><img src="images/icon-course-1.svg" class="img-fluid" alt="">Thời gian :</div>
 									<span>12 tháng</span>
 								</li>
 								<li>
-									<div class="span-cour"><img src="images/icon-course-2.png" class="img-fluid" alt="">Thời lượng :</div>
+									<div class="span-cour"><img src="images/icon-course-2.svg" class="img-fluid" alt="">Thời lượng :</div>
 									<span>2 buổi / tuần</span>
 								</li>
 								<li>
-									<div class="span-cour"><img src="images/icon-course-3.png" class="img-fluid" alt="">Học viên đăng ký:</div>
+									<div class="span-cour"><img src="images/icon-course-3.svg" class="img-fluid" alt="">Học viên đăng ký:</div>
 									<span>30+</span>
 								</li>
 								<li>
-									<div class="span-cour"><img src="images/icon-course-4.png" class="img-fluid" alt="">Độ tuổi</div>
+									<div class="span-cour"><img src="images/icon-course-4.svg" class="img-fluid" alt="">Độ tuổi</div>
 									<span>4 - 5 tuổi</span>
 								</li>
 							</ul>
@@ -132,9 +132,9 @@
 						<div class="share-cour">
 							<p>Chia sẻ Khóa học</p>
 							<ul>
-								<li><a href=""><img src="images/s-1.png" alt=""></a></li>
-								<li><a href=""><img src="images/s-2.png" alt=""></a></li>
-								<li><a href=""><img src="images/s-3.png" alt=""></a></li>
+								<li><a href=""><img src="images/s-1.svg" alt=""></a></li>
+								<li><a href=""><img src="images/s-2.svg" alt=""></a></li>
+								<li><a href=""><img src="images/s-3.svg" alt=""></a></li>
 							</ul>
 						</div>
 					</div>
@@ -183,6 +183,47 @@
 				</div>
 				<div class="col-lg-6">
 					<div class="avarta text-right"><img src="images/avr-form.png" class="img-fluid" alt=""></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="box-other-course">
+		<div class="container">
+			<div class="title text-center">
+				<h2>Khóa <label>học liên</label> quan</h2>
+			</div>
+			<div class="list-other-course">
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-sm-6">
+						<div class="item-course">
+							<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
+							<div class="info">
+								<h3><a href="course-detail.php">Khóa Kiddie C</a></h3>
+								<p>Cho trẻ từ 4-5 tuổi</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-6">
+						<div class="item-course">
+							<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
+							<div class="info">
+								<h3><a href="course-detail.php">Khóa Kiddie C</a></h3>
+								<p>Cho trẻ từ 4-5 tuổi</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-6">
+						<div class="item-course">
+							<div class="avarta"><a href="course-detail.php"><img src="images/course-3.png" class="img-fluid w-100" alt=""><span>Tiếng Anh Mầm non</span></a></div>
+							<div class="info">
+								<h3><a href="course-detail.php">Khóa Kiddie C</a></h3>
+								<p>Cho trẻ từ 4-5 tuổi</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="btn-main text-center">
+					<a href="course.php"><span>Xem tất cả</span><img src="images/arrow-right.svg" class="img-fluid" alt=""></a>
 				</div>
 			</div>
 		</div>

@@ -19,7 +19,7 @@
 					<li><a href="javascript:void(0)" data-tab="tab-2">Tầm nhìn - Sứ mệnh - Cam kết </a></li>
 					<li><a href="javascript:void(0)" data-tab="tab-3">Đội ngũ giáo viên</a></li>
 					<li><a href="javascript:void(0)" data-tab="tab-4">Thành tựu</a></li> 
-					<li><a href="javascript:void(0)" data-tab="tab-5">Cơ sở vật chất</a></li>
+					<!-- <li><a href="javascript:void(0)" data-tab="tab-5">Cơ sở vật chất</a></li>  -->
 				</ul>
 			</div>
 			<div class="content-detail-about">
