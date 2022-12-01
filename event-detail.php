@@ -8,14 +8,14 @@
 					<ul>
 						<li><a href="">Trang chủ</a></li>
 						<li><a href="">Thư viện</a></li>
-						<li><a href="">Tủ sách cho trẻ</a></li>
-						<li><a href="">File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</a></li>
+						<li><a href="">Bí quyết học tập</a></li>
+						<li><a href="">File PDF Sách “Học nh...</a></li>
 					</ul>
 				</div>
 				<div class="detail-schedule">
 					<div class="left">
 						<div class="detail-head">
-							<h1>File PDF Sách “Học nhanh Ngữ pháp tiếng Anh từ A-Z”</h1>
+							<h1>Bí quyết nắng vững ngữ pháp tiếng Anh</h1>
 							<div class="date"><span>Cập nhật: </span>28 tháng 10, 2022</div>
 						</div>
 						<div class="info-detail">
@@ -53,7 +53,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="right">
+					<div class="right right-detail">
 						<div class="new-sidebar">
 							<div class="title-bar">Tin tức mới nhất</div>
 							<div class="list-newbar">
@@ -78,7 +78,7 @@
 							</div>
 						</div>
 						<div class="new-sidebar">
-							<div class="title-bar">Bí quyết học tập</div>
+							<div class="title-bar">Tủ sách cho trẻ</div>
 							<div class="list-newbar">
 								<div class="item-newbar">
 									<div class="avarta"><a href=""><img src="images/bq-1.png" class="img-fluid w-100" alt=""></a></div>
@@ -153,7 +153,7 @@
 			</div>
 			<div class="list-other-sche">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6 col-sm-6">
 						<div class="item-book">
 							<div class="avarta"><a href="" tabindex="0"><img src="images/bq-1.png" class="img-fluid w-100" alt=""></a></div>
 							<div class="info">
@@ -162,7 +162,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6 col-sm-6">
 						<div class="item-book">
 							<div class="avarta"><a href="" tabindex="0"><img src="images/bq-3.png" class="img-fluid w-100" alt=""></a></div>
 							<div class="info">
@@ -171,7 +171,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6 col-sm-6">
 						<div class="item-book">
 							<div class="avarta"><a href="" tabindex="0"><img src="images/bq-2.png" class="img-fluid w-100" alt=""></a></div>
 							<div class="info">

@@ -311,6 +311,226 @@
 									</div>
 								</div>
 							</div>
+							<div class="item-slide">
+								<div class="item-bangvang">
+									<div class="avarta">
+										<img src="images/avr-bv.png" class="img-fluid w-100" alt="">
+										<div class="view-cc"><a href="javascript:void(0)" data-toggle="modal" data-target="#modal-chungchi"><img src="images/view-chungchi.png" class="img-fluid" alt=""></a></div>
+									</div>
+									<div class="info">
+										<div class="overall">
+											<img src="images/overall.png" class="img-fluid" alt="">
+											<span>6.5</span>
+										</div>
+										<h4>Nguyễn Đình Sinh Quảng</h4>
+										<p><span>Lớp IELTS SPECIAL</span><label>Trường THPT Đình Bảng</label></p>
+										<div class="list-method text-center">
+											<ul>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/nghe.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/noi.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/doc.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/viet.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-slide">
+								<div class="item-bangvang">
+									<div class="avarta">
+										<img src="images/avr-bv.png" class="img-fluid w-100" alt="">
+										<div class="view-cc"><a href="javascript:void(0)" data-toggle="modal" data-target="#modal-chungchi"><img src="images/view-chungchi.png" class="img-fluid" alt=""></a></div>
+									</div>
+									<div class="info">
+										<div class="overall">
+											<img src="images/overall.png" class="img-fluid" alt="">
+											<span>6.5</span>
+										</div>
+										<h4>Nguyễn Đình Sinh Quảng</h4>
+										<p><span>Lớp IELTS SPECIAL</span><label>Trường THPT Đình Bảng</label></p>
+										<div class="list-method text-center">
+											<ul>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/nghe.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/noi.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/doc.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/viet.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-slide">
+								<div class="item-bangvang">
+									<div class="avarta">
+										<img src="images/avr-bv.png" class="img-fluid w-100" alt="">
+										<div class="view-cc"><a href="javascript:void(0)" data-toggle="modal" data-target="#modal-chungchi"><img src="images/view-chungchi.png" class="img-fluid" alt=""></a></div>
+									</div>
+									<div class="info">
+										<div class="overall">
+											<img src="images/overall.png" class="img-fluid" alt="">
+											<span>6.5</span>
+										</div>
+										<h4>Nguyễn Đình Sinh Quảng</h4>
+										<p><span>Lớp IELTS SPECIAL</span><label>Trường THPT Đình Bảng</label></p>
+										<div class="list-method text-center">
+											<ul>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/nghe.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/noi.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/doc.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/viet.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-slide">
+								<div class="item-bangvang">
+									<div class="avarta">
+										<img src="images/avr-bv.png" class="img-fluid w-100" alt="">
+										<div class="view-cc"><a href="javascript:void(0)" data-toggle="modal" data-target="#modal-chungchi"><img src="images/view-chungchi.png" class="img-fluid" alt=""></a></div>
+									</div>
+									<div class="info">
+										<div class="overall">
+											<img src="images/overall.png" class="img-fluid" alt="">
+											<span>6.5</span>
+										</div>
+										<h4>Nguyễn Đình Sinh Quảng</h4>
+										<p><span>Lớp IELTS SPECIAL</span><label>Trường THPT Đình Bảng</label></p>
+										<div class="list-method text-center">
+											<ul>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/nghe.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/noi.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/doc.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/viet.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-slide">
+								<div class="item-bangvang">
+									<div class="avarta">
+										<img src="images/avr-bv.png" class="img-fluid w-100" alt="">
+										<div class="view-cc"><a href="javascript:void(0)" data-toggle="modal" data-target="#modal-chungchi"><img src="images/view-chungchi.png" class="img-fluid" alt=""></a></div>
+									</div>
+									<div class="info">
+										<div class="overall">
+											<img src="images/overall.png" class="img-fluid" alt="">
+											<span>6.5</span>
+										</div>
+										<h4>Nguyễn Đình Sinh Quảng</h4>
+										<p><span>Lớp IELTS SPECIAL</span><label>Trường THPT Đình Bảng</label></p>
+										<div class="list-method text-center">
+											<ul>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/nghe.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/noi.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/doc.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+												<li>
+													<div class="item-method">
+														<div class="icon"><img src="images/viet.png" class="img-fluid" alt=""></div>
+														<p>7.5</p>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -601,29 +821,29 @@
 	<section class="box-gallery">
 		<div class="slide-gallery-images">
 			<div class="item-slide">
-				<div class="item-gall-image"><a href=""><img src="images/gall-1.png" class="img-fluid w-100" alt=""></a></div>
+				<div class="item-gall-image"><a href="images/gall-1.png" data-fancybox="gall"><img src="images/gall-1.png" class="img-fluid w-100" alt=""></a><span><img src="images/logo-gall.png" class="img-fluid" alt=""></span></div>
 			</div>
 			<div class="item-slide">
-				<div class="item-gall-image"><a href=""><img src="images/gall-2.png" class="img-fluid w-100" alt=""></a></div>
+				<div class="item-gall-image"><a href="images/gall-2.png" data-fancybox="gall"><img src="images/gall-2.png" class="img-fluid w-100" alt=""></a><span><img src="images/logo-gall.png" class="img-fluid" alt=""></span></div>
 			</div>
 			<div class="item-slide">
-				<div class="item-gall-image"><a href=""><img src="images/gall-1.png" class="img-fluid w-100" alt=""></a></div>
+				<div class="item-gall-image"><a href="images/gall-1.png" data-fancybox="gall"><img src="images/gall-1.png" class="img-fluid w-100" alt=""></a><span><img src="images/logo-gall.png" class="img-fluid" alt=""></span></div>
 			</div>
 			<div class="item-slide">
-				<div class="item-gall-image"><a href=""><img src="images/gall-2.png" class="img-fluid w-100" alt=""></a></div>
+				<div class="item-gall-image"><a href="images/gall-2.png" data-fancybox="gall"><img src="images/gall-2.png" class="img-fluid w-100" alt=""></a><span><img src="images/logo-gall.png" class="img-fluid" alt=""></span></div>
 			</div>
 			<div class="item-slide">
-				<div class="item-gall-image"><a href=""><img src="images/gall-1.png" class="img-fluid w-100" alt=""></a></div>
+				<div class="item-gall-image"><a href="images/gall-1.png" data-fancybox="gall"><img src="images/gall-1.png" class="img-fluid w-100" alt=""></a><span><img src="images/logo-gall.png" class="img-fluid" alt=""></span></div>
 			</div>
 			<div class="item-slide">
-				<div class="item-gall-image"><a href=""><img src="images/gall-2.png" class="img-fluid w-100" alt=""></a></div>
+				<div class="item-gall-image"><a href="images/gall-2.png" data-fancybox="gall"><img src="images/gall-2.png" class="img-fluid w-100" alt=""></a><span><img src="images/logo-gall.png" class="img-fluid" alt=""></span></div>
 			</div>
 		</div>
 	</section>
 	<section class="box-news">
 		<div class="container">
 			<div class="title text-center">
-				<h2>Tin tức - Sự kiện</h2>
+				<h2>Tin <label>tức - Sự</label> kiện</h2>
 			</div>
 			<div class="list-news">
 				<div class="row">

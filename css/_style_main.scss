@@ -1,5 +1,5 @@
 .list-secret {
-	.col-lg-4 {
+	.col-lg-4, .col-md-4 {
 		margin-bottom: 64px;
         @media (max-width: 767px) {
             margin-bottom: 40px;
@@ -264,9 +264,16 @@
         }
     }
 }
+.content-about-cate {
+    background: #fff;
+}
 .tab-about {
     padding: 56px 0;
     overflow: auto;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 2;
     @media (max-width: 1023px) {
         padding: 40px 0 20px 0;
     }
@@ -423,6 +430,42 @@
     .item-member-ab {
         .avarta {
             margin-bottom: 16px;
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            cursor: pointer;
+            &:after {
+                content: url(../images/ghost.png);
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 2;
+                transition: .3s all !important;
+                pointer-events: none;
+                opacity: 0;
+            }
+            &:before {
+                content: "";
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: rgba(68, 41, 41, 0.3);
+                transition: .3s all !important;
+                pointer-events: none;
+                opacity: 0;
+            }
+            &:hover {
+                &:after, &:before {
+                    opacity: 1;
+                }
+            }
         }
         h4 {
             font-size: 32px;

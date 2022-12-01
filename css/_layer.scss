@@ -95,7 +95,7 @@ footer {
   background: #1B1B1B;
   color: #fff;
   a {
-    color: #ff;
+    color: #fff;
   }
   .container {
     max-width: 1350px;
@@ -333,7 +333,13 @@ header {
           display: inline-flex;
           align-items: center;
         }
+        img {
+          transition: .3s all !important;
+        }
         &:hover {
+          img {
+            transform: rotate(180deg);
+          }
           .submenu {
             opacity: 1;
             pointer-events: unset;
@@ -408,6 +414,9 @@ header {
         }
         &.search-head {
           background: #FFF3D5;
+        }
+        &:hover {
+          transform: scale(1.05);
         }
         svg {
           margin-right: 10px;
@@ -523,6 +532,17 @@ header {
     }
     @media (max-width: 767px) {
       width: 60px;
+    }
+  }
+  a {
+    img {
+      transition: .3s all !important;
+    }
+    &:hover {
+      img {
+        transform: scale(1.04);
+        opacity: 0.8;
+      }
     }
   }
 }

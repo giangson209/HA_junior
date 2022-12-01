@@ -16,14 +16,14 @@
 			<div class="shedule-hot">
 				<div class="row align-items-center">
 					<div class="col-md-7">
-						<div class="avarta"><a href="detail.php"><img src="images/biquyet-big.png" class="img-fluid" alt=""></a></div>
+						<div class="avarta"><a href="event-detail.php"><img src="images/biquyet-big.png" class="img-fluid" alt=""></a></div>
 					</div>
 					<div class="col-md-5">
 						<div class="info">
 							<div class="time">Cập nhật 3 giờ trước</div>
-							<h2><a href="detail.php">Tưng bừng Khai trương Cơ sở mới tại Từ Sơn - Bắc Ninh</a></h2>
+							<h2><a href="event-detail.php">Tưng bừng Khai trương Cơ sở mới tại Từ Sơn - Bắc Ninh</a></h2>
 							<div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque.</div>
-							<div class="view-detail-big"><a href="detail.php">Chi tiết<img src="images/arrow-right-dark.svg" class="img-fluid" alt=""></a></div>
+							<div class="view-detail-big"><a href="event-detail.php">Chi tiết<img src="images/arrow-right-dark.svg" class="img-fluid" alt=""></a></div>
 						</div>
 					</div>
 				</div>
@@ -34,9 +34,9 @@
                     for ($x = 1; $x <= 12; $x++) { ?>
                         <div class="col-lg-4 col-md-6 col-sm-6">
 							<div class="item-book">
-								<div class="avarta"><a href="detail.php" tabindex="0"><img src="images/bq-2.png" class="img-fluid w-100" alt=""></a></div>
+								<div class="avarta"><a href="event-detail.php" tabindex="0"><img src="images/bq-2.png" class="img-fluid w-100" alt=""></a></div>
 								<div class="info">
-									<h3><a href="detail.php" tabindex="0">Tưng bừng Khai trương Cơ sở mới tại Từ Sơn - Bắc Ninh</a></h3>
+									<h3><a href="event-detail.php" tabindex="0">Tưng bừng Khai trương Cơ sở mới tại Từ Sơn - Bắc Ninh</a></h3>
 									<div class="desc">
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id enim, a, risus molestie arcu dignissim aenean. Morbi sollicitudin at eleifend quis a enim scelerisque. Arcu amet nisi et consequat commodo nulla. Sem fames blandit suspendisse at orci dolor nam.
 									</div>

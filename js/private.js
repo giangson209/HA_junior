@@ -36,7 +36,7 @@ $(document).ready(function(){
 
 	if($(window).innerWidth() < 1024){
 		$('.list-news .row').slick({
-			autoplay:false,
+			autoplay:true,
 			arrow:false,
 			slidesToShow: 2,
 			slidesToScroll: 1,
@@ -66,7 +66,7 @@ $(document).ready(function(){
 	}
 
 	$('.slide-banner').slick({
-		autoplay:false,
+		autoplay:true,
 		arrow:true,
 		slidesToShow: 1,
 		slidesToScroll: 1, 
@@ -76,7 +76,7 @@ $(document).ready(function(){
 	});
 
 	$('.slide-course').slick({
-		autoplay:false,
+		autoplay:true,
 		arrow:true,
 		slidesToShow: 3,
 		slidesToScroll: 1, 
@@ -109,7 +109,7 @@ $(document).ready(function(){
 	});
 
 	$('.slide-bangvang').slick({
-		autoplay:false,
+		autoplay:true,
 		arrow:true,
 		slidesToShow: 1,
 		slidesToScroll: 1,
@@ -120,7 +120,7 @@ $(document).ready(function(){
 	});
 
 	$('.slide-member').slick({
-		autoplay:false,
+		autoplay:true,
 		arrow:true,
 		slidesToShow: 3,
 		slidesToScroll: 1,
@@ -153,7 +153,7 @@ $(document).ready(function(){
 	});
 
 	$('.slide-book').slick({
-		autoplay:false,
+		autoplay:true,
 		arrow:false,
 		slidesToShow: 3,
 		slidesToScroll: 1,
@@ -184,7 +184,7 @@ $(document).ready(function(){
 	});
 
 	$('.slide-feedback').slick({
-		autoplay:false,
+		autoplay:true,
 		arrow:false,
 		slidesToShow: 1,
 		slidesToScroll: 1,
@@ -194,7 +194,7 @@ $(document).ready(function(){
 	});
 
 	$('.slide-gallery-images').slick({
-		autoplay:false,
+		autoplay:true,
 		arrow:false,
 		centerMode: true,
 		slidesToShow: 4,

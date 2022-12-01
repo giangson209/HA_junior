@@ -25,7 +25,7 @@
 				</div>
 				<div class="col-lg-8">
 					<div class="content-cate-course">
-						<div class="course-box" id="scroll-1">
+						<div class="scroll-ev course-box" id="scroll-1">
 							<div class="title-course">Khóa Tiếng Anh Mầm non</div>
 							<div class="row">
 								<div class="col-md-6">
@@ -57,7 +57,7 @@
 								</div>
 							</div> 
 						</div>
-						<div class="course-box" id="scroll-2">
+						<div class="scroll-ev course-box" id="scroll-2">
 							<div class="title-course">Khóa Tiếng Anh Tiểu học</div>
 							<div class="row">
 								<div class="col-md-6">
@@ -89,7 +89,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="course-box" id="scroll-3">
+						<div class="scroll-ev course-box" id="scroll-3">
 							<div class="title-course">Khóa Tiếng Anh THCS</div>
 							<div class="row">
 								<div class="col-md-6">
@@ -173,7 +173,17 @@
 	</section>
 </main>
 <?php include 'footer.php';?>
-
+<script type="text/javascript">
+	$(window).scroll(function() {
+        var scrollDistance = $(window).scrollTop();
+        $('.scroll-ev').each(function(i) {
+            if (($(this).position().top + 300) <= scrollDistance) {
+                $('.sidebar-course a').removeClass('active');
+                $('.sidebar-course a').eq(i).addClass('active');
+            }
+        });
+    }).scroll();
+</script>
 
 
 
